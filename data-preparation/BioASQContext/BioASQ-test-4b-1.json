@@ -1,0 +1,595 @@
+{
+    "version": "BioASQ6b",
+    "data": [
+        {
+            "title": "BioASQ6b",
+            "paragraphs": [
+                {
+                    "context": "Spermidine protects against \u03b1-synuclein neurotoxicity. As our society ages, neurodegenerative disorders like Parkinson`s disease (PD) are increasing in pandemic proportions. While mechanistic understanding of PD is advancing, a treatment with well tolerable drugs is still elusive. Here, we show that administration of the naturally occurring polyamine spermidine, which declines continuously during aging in various species, alleviates a series of PD-related degenerative processes in the fruit fly Drosophila melanogaster and the nematode Caenorhabditis elegans, two established model systems for PD pathology. In the fruit fly, simple feeding with spermidine inhibited loss of climbing activity and early organismal death upon heterologous expression of human \u03b1-synuclein, which is thought to be the principal toxic trigger of PD. In this line, administration of spermidine rescued \u03b1-synuclein-induced loss of dopaminergic neurons, a hallmark of PD, in nematodes. Alleviation of PD-related neurodegeneration by spermidine was accompanied by induction of autophagy, suggesting that this cytoprotective process may be responsible for the beneficial effects of spermidine administration.",
+                    "qas": [
+                        {
+                            "question": "What is the association of spermidine with \u03b1-synuclein neurotoxicity?",
+                            "id": "56c073fcef6e394741000020",
+                            "answers": [
+                                {
+                                    "text": "Spermidine protects against \u03b1-synuclein neurotoxicity",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Zika virus emergence in mosquitoes in southeastern Senegal, 2011. BACKGROUND: Zika virus (ZIKV; genus Flavivirus, family Flaviviridae) is maintained in a zoonotic cycle between arboreal Aedes spp. mosquitoes and nonhuman primates in African and Asian forests. Spillover into humans has been documented in both regions and the virus is currently responsible for a large outbreak in French Polynesia. ZIKV amplifications are frequent in southeastern Senegal but little is known about their seasonal and spatial dynamics. The aim of this paper is to describe the spatio-temporal patterns of the 2011 ZIKV amplification in southeastern Senegal. METHODOLOGY/FINDINGS: Mosquitoes were collected monthly from April to December 2011 except during July. Each evening from 18:00 to 21:00 hrs landing collections were performed by teams of 3 persons working simultaneously in forest (canopy and ground), savannah, agriculture, village (indoor and outdoor) and barren land cover sites. Mosquitoes were tested for virus infection by virus isolation and RT-PCR. ZIKV was detected in 31 of the 1,700 mosquito pools (11,247 mosquitoes) tested: Ae. furcifer (5), Ae. luteocephalus (5), Ae. africanus (5), Ae. vittatus (3), Ae. taylori, Ae. dalzieli, Ae. hirsutus and Ae. metallicus (2 each) and Ae. aegypti, Ae. unilinaetus, Ma. uniformis, Cx. perfuscus and An. coustani (1 pool each) collected in June (3), September (10), October (11), November (6) and December (1). ZIKV was detected from mosquitoes collected in all land cover classes except indoor locations within villages. The virus was detected in only one of the ten villages investigated. CONCLUSIONS/SIGNIFICANCE: This ZIKV amplification was widespread in the K\u00e9dougou area, involved several mosquito species as probable vectors, and encompassed all investigated land cover classes except indoor locations within villages. Aedes furcifer males and Aedes vittatus were found infected within a village, thus these species are probably involved in the transmission of Zika virus to humans in this environment.",
+                    "qas": [
+                        {
+                            "question": "To which family does the Zika virus belong?",
+                            "id": "56b76d916e3f8eaf4c000001",
+                            "answers": [
+                                {
+                                    "text": "Flaviviridae",
+                                    "answer_start": 121
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "CAGEr: precise TSS data retrieval and high-resolution promoterome mining for integrative analyses. Cap analysis of gene expression (CAGE) is a high-throughput method for transcriptome analysis that provides a single base-pair resolution map of transcription start sites (TSS) and their relative usage. Despite their high resolution and functional significance, published CAGE data are still underused in promoter analysis due to the absence of tools that enable its efficient manipulation and integration with other genome data types. Here we present CAGEr, an R implementation of novel methods for the analysis of differential TSS usage and promoter dynamics, integrated with CAGE data processing and promoterome mining into a first comprehensive CAGE toolbox on a common analysis platform. Crucially, we provide collections of TSSs derived from most published CAGE datasets, as well as direct access to FANTOM5 resource of TSSs for numerous human and mouse cell/tissue types from within R, greatly increasing the accessibility of precise context-specific TSS data for integrative analyses. The CAGEr package is freely available from Bioconductor at http://www.bioconductor.org/packages/release/bioc/html/CAGEr.html.",
+                    "qas": [
+                        {
+                            "question": "Which tool is used for promoterome mining using CAGE data?",
+                            "id": "56afe6d40a360a5e45000017",
+                            "answers": [
+                                {
+                                    "text": "CAGEr",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Hungarian Isradipine Study (HIS): long-term (3-year) effects on blood pressure and plasma lipids. These are the preliminary data of an open multicenter trial of antihypertensive treatment with isradipine as monotherapy (dose, 4.55 +/- 0.56 mg twice daily; n = 11) or isradipine (7.5 +/- 0.63 mg twice daily) in combination with bopindolol (1.16 +/- 0.12 mg once daily; n = 30) administered for 3 years to patients with essential hypertension (WHO classification I or II). Blood pressure was significantly decreased in both treatment groups and there was no indication of resistance to therapy. Plasma levels of total cholesterol and triglycerides were decreased by the end of the second year of treatment, and there was a tendency toward increase in plasma levels of high-density lipoprotein cholesterol (HDL2 or HDL3). The atherogenic index (ratio between total cholesterol and HDL2 plus HDL3) was also decreased. Blood glucose levels remained unchanged in both normoglycemic patients and those with non-insulin-dependent diabetes mellitus (NIDDM) during 3 years of therapy. It is concluded that isradipine is safe and effective when administered long-term in the treatment of hypertensive patients with either hyperlipidemia or NIDDM.",
+                    "qas": [
+                        {
+                            "question": "What is the indication for isradipine?",
+                            "id": "56c3184050c68dd416000003",
+                            "answers": [
+                                {
+                                    "text": "hypertension",
+                                    "answer_start": 429
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Lipid droplet dynamics in budding yeast. Eukaryotic cells store excess fatty acids as neutral lipids, predominantly triacylglycerols and sterol esters, in organelles termed lipid droplets (LDs) that bulge out from the endoplasmic reticulum. LDs are highly dynamic and contribute to diverse cellular functions. The catabolism of the storage lipids within LDs is channeled to multiple metabolic pathways, providing molecules for energy production, membrane building blocks, and lipid signaling. LDs have been implicated in a number of protein degradation and pathogen infection processes. LDs may be linked to prevalent human metabolic diseases and have marked potential for biofuel production. The knowledge accumulated on LDs in recent years provides a foundation for diverse, and even unexpected, future research. This review focuses on recent advances in LD research, emphasizing the diverse physiological roles of LDs in the model system of budding yeast.",
+                    "qas": [
+                        {
+                            "question": "What is the lipid droplet used for in the cell?",
+                            "id": "56b397a98525abca1e000003",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Effects of the dual peroxisome proliferator-activated receptor-\u03b1/\u03b3 agonist aleglitazar on renal function in patients with stage 3 chronic kidney disease and type 2 diabetes: a Phase IIb, randomized study. BACKGROUND: Type 2 diabetes is a major risk factor for chronic kidney disease, which substantially increases the risk of cardiovascular disease mortality. This Phase IIb safety study (AleNephro) in patients with stage 3 chronic kidney disease and type 2 diabetes, evaluated the renal effects of aleglitazar, a balanced peroxisome proliferator-activated receptor-\u03b1/\u03b3 agonist. METHODS: Patients were randomized to 52 weeks' double-blind treatment with aleglitazar 150 \u03bcg/day (n=150) or pioglitazone 45 mg/day (n=152), followed by an 8-week off-treatment period. The primary endpoint was non-inferiority for the difference between aleglitazar and pioglitazone in percentage change in estimated glomerular filtration rate from baseline to end of follow-up. Secondary endpoints included change from baseline in estimated glomerular filtration rate and lipid profiles at end of treatment. RESULTS: Mean estimated glomerular filtration rate change from baseline to end of follow-up was -2.7% (95% confidence interval: -7.7, 2.4) with aleglitazar versus -3.4% (95% confidence interval: -8.5, 1.7) with pioglitazone, establishing non-inferiority (0.77%; 95% confidence interval: -4.5, 6.0). Aleglitazar was associated with a 15% decrease in estimated glomerular filtration rate versus 5.4% with pioglitazone at end of treatment, which plateaued to 8 weeks and was not progressive. Superior improvements in high-density lipoprotein cholesterol, low-density lipoprotein cholesterol and triglycerides, with similar effects on glycosylated hemoglobin were observed with aleglitazar versus pioglitazone. No major safety concerns were identified. CONCLUSIONS: The primary endpoint in AleNephro was met, indicating that in stage 3 chronic kidney disease patients with type 2 diabetes, the decrease in estimated glomerular filtration rate after 52 weeks' treatment with aleglitazar followed by 8 weeks off-treatment was reversible and comparable (non-inferior) to pioglitazone. TRIAL REGISTRATION: NCT01043029 January 5, 2010.",
+                    "qas": [
+                        {
+                            "question": "Aleglitazar is agonist of which receptor?",
+                            "id": "56c1f00cef6e39474100003e",
+                            "answers": [
+                                {
+                                    "text": "peroxisome proliferator-activated receptor-\u03b1/\u03b3",
+                                    "answer_start": 20
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Sushi.R: flexible, quantitative and integrative genomic visualizations for publication-quality multi-panel figures. Interpretation and communication of genomic data require flexible and quantitative tools to analyze and visualize diverse data types, and yet, a comprehensive tool to display all common genomic data types in publication quality figures does not exist to date. To address this shortcoming, we present Sushi.R, an R/Bioconductor package that allows flexible integration of genomic visualizations into highly customizable, publication-ready, multi-panel figures from common genomic data formats including Browser Extensible Data (BED), bedGraph and Browser Extensible Data Paired-End (BEDPE). Sushi.R is open source and made publicly available through GitHub (https://github.com/dphansti/Sushi) and Bioconductor (http://bioconductor.org/packages/release/bioc/html/Sushi.html).",
+                    "qas": [
+                        {
+                            "question": "Which R/bioconductor package is used for integrative genomics visualizations?",
+                            "id": "56b330bb39c782df06000001",
+                            "answers": [
+                                {
+                                    "text": "Sushi.R",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The mTOR pathway controls cell proliferation by regulating the FoxO3a transcription factor via SGK1 kinase. The mechanistic target of rapamycin (mTOR) functions as a component of two large complexes, mTORC1 and mTORC2, which play crucial roles in regulating cell growth and homeostasis. However, the molecular mechanisms by which mTOR controls cell proliferation remain elusive. Here we show that the FoxO3a transcription factor is coordinately regulated by mTORC1 and mTORC2, and plays a crucial role in controlling cell proliferation. To dissect mTOR signaling, mTORC1 was specifically inactivated by depleting p18, an essential anchor of mTORC1 on lysosomes. mTORC1 inactivation caused a marked retardation of cell proliferation, which was associated with upregulation of cyclin-dependent kinase inhibitors (CDKIs). Although Akt was activated by mTORC1 inactivation, FoxO3a was upregulated via an epigenetic mechanism and hypophosphorylated at Ser314, which resulted in its nuclear accumulation. Consistently, mTORC1 inactivation induced downregulation of serum- and glucocorticoid-inducible kinase 1 (SGK1), the kinase responsible for Ser314 phosphorylation. Expression of FoxO3a mutated at Ser314 suppressed cell proliferation by inducing CDKI expression. SGK1 overexpression suppressed CDKI expression in p18-deficient cells, whereas SGK1 knockdown induced CDKI expression in wild-type cells, resulting in the suppression of cell proliferation. These results suggest that mTORC1, in coordination with mTORC2, controls cell proliferation by regulating FoxO3a gene expression and SGK1-mediated phosphorylation of FoxO3a at Ser314.",
+                    "qas": [
+                        {
+                            "question": "Which protein pathway is regulating SGK1-mediated phosphorylation of FOXO3a to control cell proliferation?",
+                            "id": "56cafa845795f9a73e00002e",
+                            "answers": [
+                                {
+                                    "text": "The mTOR pathway",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Eaf1p Is Required for Recruitment of NuA4 in Targeting TFIID to the Promoters of the Ribosomal Protein Genes for Transcriptional Initiation In Vivo. NuA4 (nucleosome acetyltransferase of H4) promotes transcriptional initiation of TFIID (a complex of TBP and TBP-associated factors [TAFs])-dependent ribosomal protein genes involved in ribosome biogenesis. However, it is not clearly understood how NuA4 regulates the transcription of ribosomal protein genes. Here, we show that NuA4 is recruited to the promoters of ribosomal protein genes, such as RPS5, RPL2B, and RPS11B, for TFIID recruitment to initiate transcription, and the recruitment of NuA4 to these promoters is impaired in the absence of its Eaf1p component. Intriguingly, impaired NuA4 recruitment in a \u0394eaf1 strain depletes recruitment of TFIID (a TAF-dependent form of TBP) but not the TAF-independent form of TBP to the promoters of ribosomal protein genes. However, in the absence of NuA4, SAGA (Spt-Ada-Gcn5-acetyltransferase) is involved in targeting the TAF-independent form of TBP to the promoters of ribosomal protein genes for transcriptional initiation. Thus, NuA4 plays an important role in targeting TFIID to the promoters of ribosomal protein genes for transcriptional initiation in vivo. Such a function is mediated via its targeted histone acetyltransferase activity. In the absence of NuA4, ribosomal protein genes lose TFIID dependency and become SAGA dependent for transcriptional initiation. Collectively, these results provide significant insights into the regulation of ribosomal protein gene expression and, hence, ribosome biogenesis and functions.",
+                    "qas": [
+                        {
+                            "question": "What does the SAGA complex acronym stands for?",
+                            "id": "56b76f496e3f8eaf4c000002",
+                            "answers": [
+                                {
+                                    "text": "Spt-Ada-Gcn5-acetyltransferase",
+                                    "answer_start": 963
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Acute coronary syndromes: targeting inflammation-what has the VISTA-16 trial taught us? The VISTA-16 trial of varespladib, a secretory phospholipase A2 (sPLA2) inhibitor, in patients with an acute coronary syndrome was terminated prematurely owing to futility and a signal towards harm. Despite these discouraging results, therapies that target inflammation to modify pathways in atherogenesis remain an area of active investigation.",
+                    "qas": [
+                        {
+                            "question": "Which enzyme is inhibited by Varespladib?",
+                            "id": "56c1f00def6e39474100003f",
+                            "answers": [
+                                {
+                                    "text": "secretory phospholipase A2",
+                                    "answer_start": 125
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Dasatinib inhibits recombinant viral antigen-specific murine CD4+ and CD8+ T-cell responses and NK-cell cytolytic activity in vitro and in vivo. OBJECTIVE: Dasatinib (BMS-354825) is a small molecule Src/Abl tyrosine kinase inhibitor approved for the treatment of chronic myeloid leukemia and Philadelphia chromosome-positive acute lymphoblastic leukemia. Members of the Src family of kinases are involved in the induction of innate and adaptive immunity. The purpose of this study was to evaluate the inhibitory action of dasatinib on antigen-specific CD8(+) and CD4(+) T-cell function, as well as natural killer (NK) cell cytotoxicity. MATERIALS AND METHODS: To assess dasatinib-mediated inhibition of antigen-specific T-cell proliferation, transgenic CD4(+) and CD8(+) T cells specific for ovalbumin were utilized. Endogenous CD4(+) and CD8(+) T-cell responses were determined following immunization of dasatinib-treated or control mice with a nonreplicating recombinant virus. Clearance of the RMA-S cells, a major histocompatibility complex (MHC) class I-deficient thymoma sensitive to NK-cell lysis, was analyzed in mice undergoing dasatinib treatment. RESULTS: Dasatinib inhibited antigen-specific proliferation of murine CD4(+) and CD8(+) transgenic T cells in vitro and in vivo. Endogenous antigen-specific helper T-cell recall responses and induction of T-cell-mediated cytotoxicity following immunization with a nonreplicating recombinant virus were also inhibited. So to was the ability of NK cells to eliminate MHC class I-deficient cells in vivo. CONCLUSIONS: These findings suggest that dasatinib has the potential to modulate the host immune response at clinical doses and highlights scope for off target applications, e.g., therapeutic immunosuppression in the context of autoimmune pathogenesis and allogeneic tissue transplantation.",
+                    "qas": [
+                        {
+                            "question": "Does dasatinib promote or inhibit T-cell proliferation?",
+                            "id": "56c85ed65795f9a73e000012",
+                            "answers": [
+                                {
+                                    "text": "inhibits",
+                                    "answer_start": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Olfactory groove meningioma: report of 99 cases surgically treated at the Catholic University School of Medicine, Rome. OBJECTIVE: We reviewed our series of olfactory groove meningiomas (OGMs) with the aim to relate the surgical approach with outcome and to define clinical and pathologic predictors of prognosis. METHODS: Ninety-nine patients who underwent 113 craniotomies at our Institution between 1984 and 2010 were entered this study. The relationship between surgical approach (bifrontal, fronto-orbito-basal, and pterional) and either tumor diameter, extent of tumor resection, complication rate, need of reoperation, and Karnofsky Performance Status (KPS) was analyzed. The impact of age (\u2264 70 vs. > 70 years), sex, tumor diameter (< 6 vs. \u2265 6 cm), pre- and postoperative KPS (< 80 vs. \u2265 80), Simpson grade (I-II vs. III-IV), and World Health Organization (WHO) histologic grade (I vs. II-III) on survival was assessed. Kaplan-Meier survival curves were plotted and differences in survival between groups of patients were compared. A multivariate analysis adjusted for age, pre- and postoperative KPS, Simpson grade, tumor diameter, and WHO histologic grade also was performed. RESULTS: The fronto-orbito-basal approach (n = 22) allowed a significantly greater percentage of Simpson I-II removals than the bifrontal (n = 70) and pterional approach (n = 21) (P = 0.0354 and P = 0.0485, respectively). The risk of life-threatening complications trended to be lower in patients operated upon either via the fronto-orbito-basal and via the pterional approach than in those treated via the bifrontal approach. Retraction-related brain swelling did not occur in any case after the fronto-orbito-basal approach (P = 0.0384); however, this approach was associated with a greater rate of cerebrospinal fluid leak (P = 0.0011). Among prognostic factors, age \u2264 70 years (P = 0.0044), tumor diameter <6 cm (P = 0.0455), pre- and postoperative KPS \u2265 80 (both P < 0.0001), Simpson grade I-II (P = 0.0096), and WHO histologic grade I (P = 0.0112) were significantly associated with longer overall survival. Age (P = 0.0393) and WHO histologic grade (P = 0.0418) emerged as independent prognostic factors for overall survival on multivariate analysis. CONCLUSION: In the largest series of OGMs published to date, the bifrontal approach was associated with a greater risk of life-threatening complications compared with the lateral pterional and fronto-orbito-basal approaches. The fronto-orbito-basal approach provided greater chances of total tumor removal than the bifrontal and pterional approaches. Two independent factors for overall survival of patients with OGM were identified, namely age and WHO grade.",
+                    "qas": [
+                        {
+                            "question": "Simpson grading is used to describe resection of which brain tumor?",
+                            "id": "56c1f010ef6e394741000041",
+                            "answers": [
+                                {
+                                    "text": "meningioma",
+                                    "answer_start": 17
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Disruption of ALX1 causes extreme microphthalmia and severe facial clefting: expanding the spectrum of autosomal-recessive ALX-related frontonasal dysplasia. We present an autosomal-recessive frontonasal dysplasia (FND) characterized by bilateral extreme microphthalmia, bilateral oblique facial cleft, complete cleft palate, hypertelorism, wide nasal bridge with hypoplasia of the ala nasi, and low-set, posteriorly rotated ears in two distinct families. Using Affymetrix 250K SNP array genotyping and homozygosity mapping, we mapped this clinical entity to chromosome 12q21. In one of the families, three siblings were affected, and CNV analysis of the critical region showed a homozygous 3.7 Mb deletion containing the ALX1 (CART1) gene, which encodes the aristaless-like homeobox 1 transcription factor. In the second family we identified a homozygous donor-splice-site mutation (c.531+1G > A) in the ALX1 gene, providing evidence that complete loss of function of ALX1 protein causes severe disruption of early craniofacial development. Unlike loss of its murine ortholog, loss of human ALX1 does not result in neural-tube defects; however, it does severely affect the orchestrated fusion between frontonasal, nasomedial, nasolateral, and maxillary processes during early-stage embryogenesis. This study further expands the spectrum of the recently recognized autosomal-recessive ALX-related FND phenotype in humans.",
+                    "qas": [
+                        {
+                            "question": "Which disease has been associated to a disruptive ALX1 protein?",
+                            "id": "56cf36263975bb303a000007",
+                            "answers": [
+                                {
+                                    "text": "frontonasal dysplasia",
+                                    "answer_start": 135
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Pembrolizumab versus Ipilimumab in Advanced Melanoma. BACKGROUND: The immune checkpoint inhibitor ipilimumab is the standard-of-care treatment for patients with advanced melanoma. Pembrolizumab inhibits the programmed cell death 1 (PD-1) immune checkpoint and has antitumor activity in patients with advanced melanoma. METHODS: In this randomized, controlled, phase 3 study, we assigned 834 patients with advanced melanoma in a 1:1:1 ratio to receive pembrolizumab (at a dose of 10 mg per kilogram of body weight) every 2 weeks or every 3 weeks or four doses of ipilimumab (at 3 mg per kilogram) every 3 weeks. Primary end points were progression-free and overall survival. RESULTS: The estimated 6-month progression-free-survival rates were 47.3% for pembrolizumab every 2 weeks, 46.4% for pembrolizumab every 3 weeks, and 26.5% for ipilimumab (hazard ratio for disease progression, 0.58; P<0.001 for both pembrolizumab regimens versus ipilimumab; 95% confidence intervals [CIs], 0.46 to 0.72 and 0.47 to 0.72, respectively). Estimated 12-month survival rates were 74.1%, 68.4%, and 58.2%, respectively (hazard ratio for death for pembrolizumab every 2 weeks, 0.63; 95% CI, 0.47 to 0.83; P=0.0005; hazard ratio for pembrolizumab every 3 weeks, 0.69; 95% CI, 0.52 to 0.90; P=0.0036). The response rate was improved with pembrolizumab administered every 2 weeks (33.7%) and every 3 weeks (32.9%), as compared with ipilimumab (11.9%) (P<0.001 for both comparisons). Responses were ongoing in 89.4%, 96.7%, and 87.9% of patients, respectively, after a median follow-up of 7.9 months. Efficacy was similar in the two pembrolizumab groups. Rates of treatment-related adverse events of grade 3 to 5 severity were lower in the pembrolizumab groups (13.3% and 10.1%) than in the ipilimumab group (19.9%). CONCLUSIONS: The anti-PD-1 antibody pembrolizumab prolonged progression-free survival and overall survival and had less high-grade toxicity than did ipilimumab in patients with advanced melanoma. (Funded by Merck Sharp & Dohme; KEYNOTE-006 ClinicalTrials.gov number, NCT01866319.).",
+                    "qas": [
+                        {
+                            "question": "What is targeted by monoclonal antibody Pembrolizumab?",
+                            "id": "56c1f01aef6e394741000043",
+                            "answers": [
+                                {
+                                    "text": "programmed cell death 1",
+                                    "answer_start": 207
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Insights into the evolution and domain structure of Ataxin-2 proteins across eukaryotes. BACKGROUND: Ataxin-2 is an evolutionarily conserved protein first identified in humans as responsible for spinocerebellar ataxia type 2 (SCA2). The molecular basis of SCA2 is the expansion of a polyglutamine tract in Ataxin-2, encoding a Lsm domain that may bind RNA and a PAM2 motif that enables interaction with the poly (A) binding protein. Although the association with SCA2 has been verified, a detailed molecular function for Ataxin-2 has not been established. RESULTS: We have undertaken a survey of Ataxin-2 proteins across all eukaryotic domains. In eukaryotes, except for vertebrates and land plants, a single ortholog was identified. Notably, with the exception of birds, two Ataxin-2 genes exist in vertebrates. Expansion was observed in land plants and a novel class lacking the LsmAD domain was identified. Large polyQ tracts appear limited to primates and insects of the orders Hymenoptera and Diptera. A common feature across Ataxin-2 orthologs is the presence of proline-rich motifs, formerly described in the human protein. CONCLUSION: Our analysis provides valuable information on the evolution and domain structure of Ataxin-2 proteins. Proline-rich motifs that may mediate protein interactions are widespread in Ataxin-2 proteins, but expansion of polyglutamine tracts associated with spinocerebellar ataxia type 2, is present only in primates, as well as some insects. Our analysis of Ataxin-2 proteins provides also a source to examine orthologs in a number of different species.",
+                    "qas": [
+                        {
+                            "question": "Which polyQ tract protein is linked to Spinocerebellar Ataxia type 2?",
+                            "id": "56cae60f5795f9a73e00002b",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Human monoamine oxidase gene (MAOA): chromosome position (Xp21-p11) and DNA polymorphism. An essentially full-length cDNA clone for the human enzyme monoamine oxidase type A (MAO-A) has been used to determine the chromosomal location of a gene encoding it. This enzyme is important in the degradative metabolism of biogenic amines throughout the body and is located in the outer mitochondrial membrane of many cell types. Southern blot analysis of PstI-digested human DNA revealed multiple fragments that hybridized to this probe. Using rodent-human somatic cell hybrids containing all or part of the human X chromosome, we have mapped these fragments to the region Xp21-p11. A restriction fragment length polymorphism (RFLP) for this MAOA gene was identified and used to evaluate linkage distances between this locus and several other loci on Xp. The MAOA locus lies between DXS14 and OTC, about 29 cM from the former.",
+                    "qas": [
+                        {
+                            "question": "Which is the chromosomal location of the gene MAOA?",
+                            "id": "56cf3f4f3975bb303a000008",
+                            "answers": [
+                                {
+                                    "text": "Xp21-p11",
+                                    "answer_start": 58
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Circular RNA: A new star of noncoding RNAs. Circular RNAs (circRNAs) are a novel type of RNA that, unlike linear RNAs, form a covalently closed continuous loop and are highly represented in the eukaryotic transcriptome. Recent studies have discovered thousands of endogenous circRNAs in mammalian cells. CircRNAs are largely generated from exonic or intronic sequences, and reverse complementary sequences or RNA-binding proteins (RBPs) are necessary for circRNA biogenesis. The majority of circRNAs are conserved across species, are stable and resistant to RNase R, and often exhibit tissue/developmental-stage-specific expression. Recent research has revealed that circRNAs can function as microRNA (miRNA) sponges, regulators of splicing and transcription, and modifiers of parental gene expression. Emerging evidence indicates that circRNAs might play important roles in atherosclerotic vascular disease risk, neurological disorders, prion diseases and cancer; exhibit aberrant expression in colorectal cancer (CRC) and pancreatic ductal adenocarcinoma (PDAC); and serve as diagnostic or predictive biomarkers of some diseases. Similar to miRNAs and long noncoding RNAs (lncRNAs), circRNAs are becoming a new research hotspot in the field of RNA and could be widely involved in the processes of life. Herein, we review the formation and properties of circRNAs, their functions, and their potential significance in disease.",
+                    "qas": [
+                        {
+                            "question": "What is the function of circular RNA?",
+                            "id": "56c58ceeb04e159d0e000004",
+                            "answers": [
+                                {
+                                    "text": "Recent research has revealed that circRNAs can function as microRNA (miRNA) sponges, regulators of splicing and transcription, and modifiers of parental gene expression.",
+                                    "answer_start": 633
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Amino Acid-Dependent mTORC1 Regulation by the Lysosomal Membrane Protein SLC38A9. The serine/threonine kinase mTORC1 regulates cellular homeostasis in response to many cues, such as nutrient status and energy level. Amino acids induce mTORC1 activation on lysosomes via the small Rag GTPases and the Ragulator complex, thereby controlling protein translation and cell growth. Here, we identify the human 11-pass transmembrane protein SLC38A9 as a novel component of the Rag-Ragulator complex. SLC38A9 localizes with Rag-Ragulator complex components on lysosomes and associates with Rag GTPases in an amino acid-sensitive and nucleotide binding state-dependent manner. Depletion of SLC38A9 inhibits mTORC1 activity in the presence of amino acids and in response to amino acid replenishment following starvation. Conversely, SLC38A9 overexpression causes RHEB (Ras homolog enriched in brain) GTPase-dependent hyperactivation of mTORC1 and partly sustains mTORC1 activity upon amino acid deprivation. Intriguingly, during amino acid starvation mTOR is retained at the lysosome upon SLC38A9 depletion but fails to be activated. Together, the findings of our study reveal SLC38A9 as a Rag-Ragulator complex member transducing amino acid availability to mTORC1 activity.",
+                    "qas": [
+                        {
+                            "question": "Which protein interacts with the Ragulator-RAG GTPases to control mTOR activity?",
+                            "id": "56caea805795f9a73e00002c",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Spinal muscular atrophy and therapeutic prospects. The molecular genetic basis of spinal muscular atrophy (SMA), an autosomal recessive neuromuscular disorder, is the loss of function of the survival motor neuron gene (SMN1). The SMN2 gene, a nearly identical copy of SMN1, has been detected as a promising target for SMA therapy. Both genes are ubiquitously expressed and encode identical proteins, but markedly differ in their splicing patterns: While SMN1 produces full-length (FL)-SMN transcripts only, the majority of SMN2 transcripts lacks exon 7. Transcriptional SMN2 activation or modulation of its splicing pattern to increase FL-SMN levels is believed to be clinically beneficial and therefore a crucial challenge in SMA research. Drugs such as valproic acid, phenylbutyrate, sodium butyrate, M344 and SAHA that mainly act as histone deacetylase inhibitors can mediate both: they stimulate the SMN2 gene transcription and/or restore the splicing pattern, thereby elevating the levels of FL-SMN2 protein. Preliminary phase II clinical trials and individual experimental curative approaches SMA patients show promising results. However, phase III double-blind placebo controlled clinical trials have to finally prove the efficacy of these drugs.",
+                    "qas": [
+                        {
+                            "question": "Which is the genetic basis of Spinal Muscular Atrophy (SMA)?",
+                            "id": "56c5fd325795f9a73e000005",
+                            "answers": [
+                                {
+                                    "text": "The molecular genetic basis of spinal muscular atrophy (SMA), an autosomal recessive neuromuscular disorder, is the loss of function of the survival motor neuron gene (SMN1)",
+                                    "answer_start": 51
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The Hippo signal transduction network in skeletal and cardiac muscle. The discovery of the Hippo pathway can be traced back to two areas of research. Genetic screens in fruit flies led to the identification of the Hippo pathway kinases and scaffolding proteins that function together to suppress cell proliferation and tumor growth. Independent research, often in the context of muscle biology, described Tead (TEA domain) transcription factors, which bind CATTCC DNA motifs to regulate gene expression. These two research areas were joined by the finding that the Hippo pathway regulates the activity of Tead transcription factors mainly through phosphorylation of the transcriptional coactivators Yap and Taz, which bind to and activate Teads. Additionally, many other signal transduction proteins crosstalk to members of the Hippo pathway forming a Hippo signal transduction network. We discuss evidence that the Hippo signal transduction network plays important roles in myogenesis, regeneration, muscular dystrophy, and rhabdomyosarcoma in skeletal muscle, as well as in myogenesis, organ size control, and regeneration of the heart. Understanding the role of Hippo kinases in skeletal and heart muscle physiology could have important implications for translational research.",
+                    "qas": [
+                        {
+                            "question": "Which are the coactivators of the Yes-associated protein (yap)?",
+                            "id": "56d1e23c67f0cb3d66000009",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Treatment of Phthiriasis Palpebrarum and Crab Louse: Petrolatum Jelly and 1% Permethrin Shampoo. Phthiriasis palpebrarum is an uncommon cause of blepharoconjunctivitis in which Pthirus pubis infest the eyelashes. We report a case of unilateral phthiriasis palpebrarum with crab louse. A 45-year-old man presented with conjunctival hyperaemia and moderate itching associated with irritation, and crusty excretions of the eyelashes in the left eye. Careful slit-lamp examination revealed many lice and nits in left eye and mild conjunctival hyperaemia. No abnormality was found in the right eye. On dermatologic examination, only one louse was found at the pubic area. The patient was treated effectively with petrolatum jelly (Vaseline) and 1% permethrin shampoo (Kwellada 1% shampoo). At the end of the first week no louse or nit was present on eyelashes and pubic area.",
+                    "qas": [
+                        {
+                            "question": "What is the cause of Phthiriasis Palpebrarum?",
+                            "id": "56bb68f9ac7ad1001900000b",
+                            "answers": [
+                                {
+                                    "text": "Pthirus pubis",
+                                    "answer_start": 177
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Spinal but not cortical microglia acquire an atypical phenotype with high VEGF, galectin-3 and osteopontin, and blunted inflammatory responses in ALS rats. Activation of microglia, CNS resident immune cells, is a pathological hallmark of amyotrophic lateral sclerosis (ALS), a neurodegenerative disorder affecting motor neurons. Despite evidence that microglia contribute to disease progression, the exact role of these cells in ALS pathology remains unknown. We immunomagnetically isolated microglia from different CNS regions of SOD1(G93A) rats at three different points in disease progression: presymptomatic, symptom onset and end-stage. We observed no differences in microglial number or phenotype in presymptomatic rats compared to wild-type controls. Although after disease onset there was no macrophage infiltration, there were significant increases in microglial numbers in the spinal cord, but not cortex. At disease end-stage, microglia were characterized by high expression of galectin-3, osteopontin and VEGF, and concomitant downregulated expression of TNF\u03b1, IL-6, BDNF and arginase-1. Flow cytometry revealed the presence of at least two phenotypically distinct microglial populations in the spinal cord. Immunohistochemistry showed that galectin-3/osteopontin positive microglia were restricted to the ventral horns of the spinal cord, regions with severe motor neuron degeneration. End-stage SOD1(G93A) microglia from the cortex, a less affected region, displayed similar gene expression profiles to microglia from wild-type rats, and displayed normal responses to systemic inflammation induced by LPS. On the other hand, end-stage SOD1(G93A) spinal microglia had blunted responses to systemic LPS suggesting that in addition to their phenotypic changes, they may also be functionally impaired. Thus, after disease onset, microglia acquired unique characteristics that do not conform to typical M1 (inflammatory) or M2 (anti-inflammatory) phenotypes. This transformation was observed only in the most affected CNS regions, suggesting that overexpression of mutated hSOD1 is not sufficient to trigger these changes in microglia. These novel observations suggest that microglial regional and phenotypic heterogeneity may be an important consideration when designing new therapeutic strategies targeting microglia and neuroinflammation in ALS.",
+                    "qas": [
+                        {
+                            "question": "Which type of cells is affected in Amyotrophic Lateral Sclerosis?",
+                            "id": "56c8274f5795f9a73e00000d",
+                            "answers": [
+                                {
+                                    "text": "motor neurons",
+                                    "answer_start": 314
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Crohn's disease: influence of age at diagnosis on site and clinical type of disease. BACKGROUND & AIMS: Crohn's disease has a bimodal age distribution of disease onset diagnosis. The peaks (20 and 50 years) may represent different phenotypes or different genetic and/or environmental influences between younger- and older-onset individuals. The aim of this study was to examine the influences of age at diagnosis of Crohn's disease on disease site, type, and course. METHODS: Records of 552 consecutive patients with Crohn's disease were reviewed retrospectively. RESULTS: Younger age at diagnosis (younger than 20 years), compared with an older age (40 years or older), was associated with a greater prevalence of a family history of Crohn's disease (29.9% vs. 13.6%), greater small bowel involvement (88.7% vs. 57.5%), more stricturing disease (45.8% vs. 28.8%), and a higher frequency of surgery (70.6% vs. 55.3%). Older age at diagnosis was associated with a greater prevalence of colonic disease (84.8% vs. 71.2%) and the inflammatory subtype (54.5% vs. 34.4%). A conditional logistic regression analysis confirmed an independent effect of age at diagnosis on ileal disease and surgery for intractable disease. CONCLUSIONS: In Crohn's disease, early age at diagnosis is associated with more complicated disease and a greater likelihood of having affected relatives. Stratification of Crohn's disease by age at diagnosis provides support for the concept of genetic heterogeneity.",
+                    "qas": [
+                        {
+                            "question": "What is the most likely age of diagnosis of Crohn's disease (CD)?",
+                            "id": "56cae3eb5795f9a73e000021",
+                            "answers": [
+                                {
+                                    "text": "Crohn's disease has a bimodal age distribution of disease onset diagnosis. The peaks (20 and 50 years) may represent different phenotypes or different genetic and/or environmental influences between younger- and older-onset individuals.",
+                                    "answer_start": 104
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "When hepatoma rupture happens in situs inversus totalis: side matters. The authors reported a 73-year-old alcoholic man with previously-unrecognized situs inversus totalis suffering from left upper quadrant pain. Acute myocardial infarction was diagnosed and coronary angioplasty was performed immediately. However, the massive bleeding from the previously-unfound hepatomas caused hypovolemic shock and fatal outcome. Situs inversus totalis is a rare congenital anomaly with a complete mirror image of the thoracic and abdominal organs. Although being considered a benign entity, it would disturb diagnosis-making of the visceral diseases owing to the altered anatomy. To our knowledge, the coexistence of the coronary artery disease and ruptured hepatomas in situs inversus totalis, as in our patient, is never described. Recognition of any situs anomalies in time is the key to avoid misdiagnosis, inappropriate managements, and unwanted consequences.",
+                    "qas": [
+                        {
+                            "question": "What is situs inversus?",
+                            "id": "56d3346cf22319765a000008",
+                            "answers": [
+                                {
+                                    "text": "Situs inversus totalis is a rare congenital anomaly with a complete mirror image of the thoracic and abdominal organs.",
+                                    "answer_start": 419
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Psoriasiform dermatitis in a case of newly diagnosed locally advanced pyriform sinus tumour: Bazex syndrome revisited. Acrokeratosis paraneoplastica of Bazex is a rare but important paraneoplastic dermatosis, usually manifesting as psoriasiform rashes over the acral sites. It often precedes diagnosis of the associated malignancy, usually that of upper aerodigestive tract squamous cell carcinoma. We present the case of a patient with a newly diagnosed pyriform sinus tumour and associated acrokeratosis paraneoplastica. To the best of our knowledge, this is the first reported case in the local literature.",
+                    "qas": [
+                        {
+                            "question": "Name synonym of Acrokeratosis paraneoplastica.",
+                            "id": "56bc751eac7ad10019000013",
+                            "answers": [
+                                {
+                                    "text": "Bazex syndrome",
+                                    "answer_start": 93
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Tripolin A, a novel small-molecule inhibitor of aurora A kinase, reveals new regulation of HURP's distribution on microtubules. Mitotic regulators exhibiting gain of function in tumor cells are considered useful cancer therapeutic targets for the development of small-molecule inhibitors. The human Aurora kinases are a family of such targets. In this study, from a panel of 105 potential small-molecule inhibitors, two compounds Tripolin A and Tripolin B, inhibited Aurora A kinase activity in vitro. In human cells however, only Tripolin A acted as an Aurora A inhibitor. We combined in vitro, in vivo single cell and in silico studies to demonstrate the biological action of Tripolin A, a non-ATP competitive inhibitor. Tripolin A reduced the localization of pAurora A on spindle microtubules (MTs), affected centrosome integrity, spindle formation and length, as well as MT dynamics in interphase, consistent with Aurora A inhibition by RNAi or other specific inhibitors, such as MLN8054 or MLN8237. Interestingly, Tripolin A affected the gradient distribution towards the chromosomes, but not the MT binding of HURP (Hepatoma Up-Regulated Protein), a MT-associated protein (MAP) and substrate of the Aurora A kinase. Therefore Tripolin A reveals a new way of regulating mitotic MT stabilizers through Aurora A phosphorylation. Tripolin A is predicted to bind Aurora A similarly but not identical to MLN8054, therefore it could be used to dissect pathways orchestrated by Aurora kinases as well as a scaffold for further inhibitor development.",
+                    "qas": [
+                        {
+                            "question": "Which kinase is inhibited by Tripolin A?",
+                            "id": "56cb9b065795f9a73e000032",
+                            "answers": [
+                                {
+                                    "text": "aurora A",
+                                    "answer_start": 48
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "NADPH oxidases regulate CD44 and hyaluronic acid expression in thrombin-treated vascular smooth muscle cells and in atherosclerosis. The intracellular signaling events by which NADPH oxidase-generated reactive oxygen species (ROS) modulate vascular smooth muscle cell (VSMC) function and atherogenesis are yet to be entirely elucidated. We previously demonstrated that NADPH oxidase deficiency decreased atherosclerosis in apoE(-/-) mice and identified adhesion protein CD44 as an important ROS-sensitive gene expressed in VSMC and atherosclerotic lesions. Here, we examined the molecular mechanisms by which NADPH oxidase-generated ROS regulate the expression of CD44 and its principal ligand, hyaluronan (HA), and how CD44-HA interaction affects VSMC proliferation and migration and inflammatory gene expression in apoE(-/-) mice aortas. Thrombin-induced CD44 expression is mediated by transcription factor AP-1 in a NADPH oxidase-dependent manner. NADPH oxidase-mediated ROS generation enhanced thrombin-induced HA synthesis, and hyaluronan synthase 2 expression in VSMC. Hyaluronidase, which generates low molecular weight HA (LMW-HA), is induced in VSMC in a NADPH oxidase-dependent manner and LMW-HA stimulated ROS generation and cell proliferation in wild-type but not p47(phox-/-) VSMC, effects that were enhanced by thrombin pretreatment. Haptotactic VSMC migration toward HA was increased by thrombin in a CD44-dependent manner. HA expression in atherosclerotic lesions and plasma-soluble CD44 and HA levels were higher in apoE(-/-) compared with apoE(-/-)/p47(phox-/-) mice. HA-regulated pro-inflammatory gene expression was higher in apoE(-/-) than apoE(-/-)/p47(phox-/-) mouse aortas. GKT136901, a specific inhibitor of Nox1- and Nox4-containing NADPH oxidase activity, attenuated ROS generation and atherosclerosis and decreased CD44 and HA expression in atherosclerotic lesions. Together, these data suggest that increased CD44 and HA expression and CD44-HA-dependent gene regulation may play a role in atherosclerosis stimulated by NADPH oxidase activation.",
+                    "qas": [
+                        {
+                            "question": "Which compound is a specific inhibitor for Nox1 and Nox4?",
+                            "id": "56c865d25795f9a73e000016",
+                            "answers": [
+                                {
+                                    "text": "GKT136901",
+                                    "answer_start": 1698
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Multistep process of FUS aggregation in the cell cytoplasm involves RNA-dependent and RNA-independent mechanisms. Fused in sarcoma (FUS) is an RNA-binding protein involved in pathogenesis of several neurodegenerative diseases. Aggregation of mislocalized FUS into non-amyloid inclusions is believed to be pivotal in the development of cell dysfunction, but the mechanism of their formation is unclear. Using transient expression of a panel of deletion and chimeric FUS variants in various cultured cells, we demonstrated that FUS accumulating in the cytoplasm nucleates a novel type of RNA granules, FUS granules (FGs), that are structurally similar but not identical to physiological RNA transport granules. Formation of FGs requires FUS N-terminal prion-like domain and the ability to bind specific RNAs. Clustering of FGs coupled with further recruitment of RNA and proteins produce larger structures, FUS aggregates (FAs), that resemble but are clearly distinct from stress granules. In conditions of attenuated transcription, FAs lose RNA and dissociate into RNA-free FUS complexes that become precursors of large aggresome-like structures. We propose a model of multistep FUS aggregation involving RNA-dependent and RNA-independent stages. This model can be extrapolated to formation of pathological inclusions in human FUSopathies.",
+                    "qas": [
+                        {
+                            "question": "Which domain allowing self-association do exist in TDP-43 and FUS proteins?",
+                            "id": "56c83f365795f9a73e000011",
+                            "answers": [
+                                {
+                                    "text": "prion-like domain",
+                                    "answer_start": 750
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Pannexin2 oligomers localize in the membranes of endosomal vesicles in mammalian cells while Pannexin1 channels traffic to the plasma membrane. Pannexin2 (Panx2) is the largest of three members of the pannexin proteins. Pannexins are topologically related to connexins and innexins, but serve different functional roles than forming gap junctions. We previously showed that pannexins form oligomeric channels but unlike connexins and innexins, they form only single membrane channels. High levels of Panx2 mRNA and protein in the Central Nervous System (CNS) have been documented. Whereas Pannexin1 (Panx1) is fairly ubiquitous and Pannexin3 (Panx3) is found in skin and connective tissue, both are fully glycosylated, traffic to the plasma membrane and have functions correlated with extracellular ATP release. Here, we describe trafficking and subcellular localizations of exogenous Panx2 and Panx1 protein expression in MDCK, HeLa, and HEK 293T cells as well as endogenous Panx1 and Panx2 patterns in the CNS. Panx2 was found in intracellular localizations, was partially N-glycosylated, and localizations were non-overlapping with Panx1. Confocal images of hippocampal sections immunolabeled for the astrocytic protein GFAP, Panx1 and Panx2 demonstrated that the two isoforms, Panx1 and Panx2, localized at different subcellular compartments in both astrocytes and neurons. Using recombinant fusions of Panx2 with appended genetic tags developed for correlated light and electron microscopy and then expressed in different cell lines, we determined that Panx2 is localized in the membrane of intracellular vesicles and not in the endoplasmic reticulum as initially indicated by calnexin colocalization experiments. Dual immunofluorescence imaging with protein markers for specific vesicle compartments showed that Panx2 vesicles are early endosomal in origin. In electron tomographic volumes, cross-sections of these vesicles displayed fine structural details and close proximity to actin filaments. Thus, pannexins expressed at different subcellular compartments likely exert distinct functional roles, particularly in the nervous system.",
+                    "qas": [
+                        {
+                            "question": "Where is the protein Pannexin1 located?",
+                            "id": "56af9f130a360a5e45000015",
+                            "answers": [
+                                {
+                                    "text": "plasma membrane",
+                                    "answer_start": 127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Recent advances in the development of vaccines for tuberculosis. Tuberculosis (Tb) continues to be a dreadful infection worldwide with nearly 1.5 million deaths in 2013. Furthermore multi/extensively drug-resistant Tb (MDR/XDR-Tb) worsens the condition. Recently approved anti-Tb drugs (bedaquiline and delamanid) have the potential to induce arrhythmia and are recommended in patients with MDR-Tb when other alternatives fail. The goal of elimination of Tb by 2050 will not be achieved without an effective new vaccine. The recent advancement in the development of Tb vaccines is the keen focus of this review. To date, Bacille Calmette Guerin (BCG) is the only licensed Tb vaccine in use, however its efficacy in pulmonary Tb is variable in adolescents and adults. There are nearly 15 vaccine candidates in various phases of clinical trials, includes five protein or adjuvant vaccines, four viral-vectored vaccines, three mycobacterial whole cell or extract vaccines, and one each of the recombinant live and the attenuated Mycobacterium tuberculosis (Mtb) vaccine.",
+                    "qas": [
+                        {
+                            "question": "Which disease can be treated with Delamanid?",
+                            "id": "56bc7d71ac7ad10019000018",
+                            "answers": [
+                                {
+                                    "text": "tuberculosis",
+                                    "answer_start": 51
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Identification of a heteromeric complex that promotes DNA replication origin firing in human cells. Treslin/TICRR (TopBP1-interacting, replication stimulating protein/TopBP1-interacting, checkpoint, and replication regulator), the human ortholog of the yeast Sld3 protein, is an essential DNA replication factor that is regulated by cyclin-dependent kinases and the DNA damage checkpoint. We identified MDM two binding protein (MTBP) as a factor that interacts with Treslin/TICRR throughout the cell cycle. We show that MTBP depletion by means of small interfering RNA inhibits DNA replication by preventing assembly of the CMG (Cdc45-MCM-GINS) holohelicase during origin firing. Although MTBP has been implicated in the function of the p53 tumor suppressor, we found MTBP is required for DNA replication irrespective of a cell's p53 status. We propose that MTBP acts with Treslin/TICRR to integrate signals from cell cycle and DNA damage response pathways to control the initiation of DNA replication in human cells.",
+                    "qas": [
+                        {
+                            "question": "Which factor interacts with Treslin/TICRR throughout the cell cycle of human cells?",
+                            "id": "56d19a363975bb303a000017",
+                            "answers": [
+                                {
+                                    "text": "MDM two binding protein (MTBP)",
+                                    "answer_start": 403
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Prostaglandin I(2) analogues enhance already exuberant Th17 cell responses in systemic sclerosis. OBJECTIVE: Among pleiotropic effects, the capacity of prostaglandin I(2) (PGI(2)) analogues to affect adaptive immunity remains poorly characterised. The purpose of this study was to assess whether PGI(2) analogues could affect T helper (Th) cell responses in patients with systemic sclerosis (SSc) and healthy donors (HD). METHODS: Peripheral blood mononuclear cells (PBMC) were obtained from 33 patients with SSc and 29 HD. Cytokine levels in PBMC and monocyte/CD4 T cell cultures were quantified by immunoassays. The frequencies of interleukin (IL)-17A, IL-22, interferon \u03b3 (IFN\u03b3) and IL-4-producing CD4 T cells were assessed by multiparametric flow cytometry. Selective receptor antagonists, cytokine blocking antibodies and signalling protein inhibitors were used to identify the receptors and signalling pathways mediating PGI(2) analogue effects. RESULTS: Th17 and Th22 cells were more abundant in individuals with SSc than in HD. PGI(2) analogues (iloprost, treprostinil and beraprost) significantly increased IL-17A and IL-22 in vitro while decreasing IFN\u03b3 production both in SSc and HD PBMC. These effects relied on the specific expansion of Th17 and Th22 and inhibition of Th1 cells. The enhanced Th17 cell responses depended on increased IL-23 production by monocytes, involved the IP prostacyclin receptor and required protein kinase A activation. Importantly, in vivo administration of iloprost in individuals with SSc presenting with digital ulcers resulted in a significant increase in the frequency of Th17 cells. CONCLUSIONS: These findings demonstrate that PGI(2) analogues affect Th cell differentiation/expansion programmes, favouring Th17 and inhibiting Th1 cell responses in SSc. The impact of these changes on the disease course needs to be taken into consideration and further exploited to improve SSc.",
+                    "qas": [
+                        {
+                            "question": "Treprostinil is an analogue for which prostaglandin?",
+                            "id": "56c86aa95795f9a73e000018",
+                            "answers": [
+                                {
+                                    "text": "Prostaglandin I(2)",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Phase 3 Studies Comparing Brodalumab with Ustekinumab in Psoriasis. BACKGROUND: Early clinical studies suggested that the anti-interleukin-17 receptor A monoclonal antibody brodalumab has efficacy in the treatment of psoriasis. METHODS: In two phase 3 studies (AMAGINE-2 and AMAGINE-3), patients with moderate-to-severe psoriasis were randomly assigned to receive brodalumab (210 mg or 140 mg every 2 weeks), ustekinumab (45 mg for patients with a body weight \u2264100 kg and 90 mg for patients >100 kg), or placebo. At week 12, patients receiving brodalumab were randomly assigned again to receive a brodalumab maintenance dose of 210 mg every 2 weeks or 140 mg every 2 weeks, every 4 weeks, or every 8 weeks; patients receiving ustekinumab continued to receive ustekinumab every 12 weeks, and patients receiving placebo received 210 mg of brodalumab every 2 weeks. The primary aims were to evaluate the superiority of brodalumab over placebo at week 12 with respect to at least a 75% reduction in the psoriasis area-and-severity index score (PASI 75) and a static physician's global assessment (sPGA) score of 0 or 1 (clear or almost clear skin), as well as the superiority of brodalumab over ustekinumab at week 12 with respect to a 100% reduction in PASI score (PASI 100). RESULTS: At week 12, the PASI 75 response rates were higher with brodalumab at the 210-mg and 140-mg doses than with placebo (86% and 67%, respectively, vs. 8% [AMAGINE-2] and 85% and 69%, respectively, vs. 6% [AMAGINE-3]; P<0.001); the rates of sPGA scores of 0 or 1 were also higher with brodalumab (P<0.001). The week 12 PASI 100 response rates were significantly higher with 210 mg of brodalumab than with ustekinumab (44% vs. 22% [AMAGINE-2] and 37% vs. 19% [AMAGINE-3], P<0.001). The PASI 100 response rates with 140 mg of brodalumab were 26% in AMAGINE-2 (P=0.08 for the comparison with ustekinumab) and 27% in AMAGINE-3 (P=0.007). Rates of neutropenia were higher with brodalumab and with ustekinumab than with placebo. Mild or moderate candida infections were more frequent with brodalumab than with ustekinumab or placebo. Through week 52, the rates of serious infectious episodes were 1.0 (AMAGINE-2) and 1.3 (AMAGINE-3) per 100 patient-years of exposure to brodalumab. CONCLUSIONS: Brodalumab treatment resulted in significant clinical improvements in patients with moderate-to-severe psoriasis. (Funded by Amgen; AMAGINE-2 and AMAGINE-3 ClinicalTrials.gov numbers, NCT01708603 and NCT01708629.).",
+                    "qas": [
+                        {
+                            "question": "What molecule is targeted by brodalumab?",
+                            "id": "56bc9268ac7ad1001900001b",
+                            "answers": [
+                                {
+                                    "text": "interleukin-17",
+                                    "answer_start": 127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The incidence of cystic fibrosis in Caucasian populations. Estimates of the newborn frequency of cystic fibrosis in different Caucasian groups range from 4 times more to 40 times less common than the generally accepted figure of 1:2000. Current meconium screening trials which may be effective in populations with the incidence equal to or greater than 1:2000, may be useful for populations with an incidence as low as 1:7000 only after maximum improvement of the methods. Once the true incidence or the variable incidence is proven for Caucasian populations, screening trails in Negro, Oriental and Indian populations will be required.",
+                    "qas": [
+                        {
+                            "question": "What is the incidence of cystic fibrosis in the caucasian population?",
+                            "id": "56c3320a50c68dd416000008",
+                            "answers": [
+                                {
+                                    "text": "1:2000",
+                                    "answer_start": 229
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "CD38 expression predicts poor prognosis and might be a potential therapy target in extranodal NK/T cell lymphoma, nasal type. No standard chemotherapy regimens have been defined yet for extranodal natural killer/T cell lymphoma (ENKTL), and the prognosis of patients with advanced or relapsed disease is very poor. Daratumumab, an investigated anti-cancer drug targeting CD38, has been of great interest in the treatment of CD38-expressing malignancies, especially multiple myeloma. In this study, we reviewed the clinical data of 94 patients with ENKTL, investigated the expression of CD38, and analyzed the prognostic value of CD38 expression. Forty-seven patients had weak expression of CD38, and the other 47 patients had strong expression. The complete response (CR) rate was significantly higher in patients who were treated with asparaginase-based therapy (83.8 vs. 59.6 %, p\u2009=\u20090.025). There was a trend towards higher CR rate in CD38 weak expression group (78.7 vs. 59.6 %, p\u2009=\u20090.074). At a median follow-up time of 42 months, the 2-year and 5-year progression-free survival (PFS) rates were 53.0 and 39.0 %, respectively, and the 2-year and 5-year overall survival (OS) rates were 68.0 and 58.0 %, respectively. In multivariate survival analysis including CD38 expression status, International Prognostic Index (IPI) score, local tumor invasion, and chemotherapy regimens, it was found that strong expression of CD38 and non-asparaginase-based chemoregimens were independent adverse prognostic factors for PFS (p\u2009=\u20090.009 and 0.027, respectively), while local tumor invasion and higher IPI score were independent adverse prognostic factors for OS (p\u2009=\u20090.002 and 0.035, respectively). In subgroup analysis, strong expression of CD38 significantly correlated with inferior survival outcomes in patients without local tumor invasion (p\u2009=\u20090.011) or with stage I-II disease (p\u2009=\u20090.008). In conclusion, we firstly found that the majority of ENKTL cases were CD38 positive, with half had strong expression of CD38, which significantly correlated with poor outcomes, indicating the potential role of CD38 as a therapy target for ENKTL.",
+                    "qas": [
+                        {
+                            "question": "Which molecule is targeted by Daratumumab?",
+                            "id": "56bc932aac7ad1001900001c",
+                            "answers": [
+                                {
+                                    "text": "CD38",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Update of the FANTOM web resource: from mammalian transcriptional landscape to its dynamic regulation. The international Functional Annotation Of the Mammalian Genomes 4 (FANTOM4) research collaboration set out to better understand the transcriptional network that regulates macrophage differentiation and to uncover novel components of the transcriptome employing a series of high-throughput experiments. The primary and unique technique is cap analysis of gene expression (CAGE), sequencing mRNA 5'-ends with a second-generation sequencer to quantify promoter activities even in the absence of gene annotation. Additional genome-wide experiments complement the setup including short RNA sequencing, microarray gene expression profiling on large-scale perturbation experiments and ChIP-chip for epigenetic marks and transcription factors. All the experiments are performed in a differentiation time course of the THP-1 human leukemic cell line. Furthermore, we performed a large-scale mammalian two-hybrid (M2H) assay between transcription factors and monitored their expression profile across human and mouse tissues with qRT-PCR to address combinatorial effects of regulation by transcription factors. These interdependent data have been analyzed individually and in combination with each other and are published in related but distinct papers. We provide all data together with systematic annotation in an integrated view as resource for the scientific community (http://fantom.gsc.riken.jp/4/). Additionally, we assembled a rich set of derived analysis results including published predicted and validated regulatory interactions. Here we introduce the resource and its update after the initial release.",
+                    "qas": [
+                        {
+                            "question": "What was the purpose of the FANTOM4 project?",
+                            "id": "569e7721ceceede94d000001",
+                            "answers": [
+                                {
+                                    "text": "better understand the transcriptional network that regulates macrophage differentiation",
+                                    "answer_start": 214
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "DNA-binding of water-soluble furocoumarins: a thermodynamic and conformational approach to understanding different biological effects. The interaction of two water-soluble furocoumarins, 8-(omega-diethyl aminopropyloxy)psoralen hydrochloride (I) and its 5-isomer (II), with DNA has been investigated by spectroscopic, equilibrium dialysis, hydrodynamic and chiroptical techniques. Both compounds intercalate into the polynucleotide double helix. From the dependence of the binding on ionic strength, ion release and binding free energy corrected for counterion release have been quantitatively estimated. It is shown that the differences in DNA-affinity observed for compounds I and II arise primarily from non electrostatic contributions. The binding process is exothermic, with slightly different van't Hoff enthalpies for the examined furocoumarins. Helix lengthening and dichroic effects indicate different intercalation geometries for the isomeric compounds. These studies allow a possible explanation for the finding that isomer I exhibits largely better DNA-photobinding properties, while isomer II is by far more effective as an antiviral agent.",
+                    "qas": [
+                        {
+                            "question": "What is the molecular function of psoralen photobinding on DNA?",
+                            "id": "56c341acfedd0b786b000001",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 11
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "r3Cseq: an R/Bioconductor package for the discovery of long-range genomic interactions from chromosome conformation capture and next-generation sequencing data. The coupling of chromosome conformation capture (3C) with next-generation sequencing technologies enables the high-throughput detection of long-range genomic interactions, via the generation of ligation products between DNA sequences, which are closely juxtaposed in vivo. These interactions involve promoter regions, enhancers and other regulatory and structural elements of chromosomes and can reveal key details of the regulation of gene expression. 3C-seq is a variant of the method for the detection of interactions between one chosen genomic element (viewpoint) and the rest of the genome. We present r3Cseq, an R/Bioconductor package designed to perform 3C-seq data analysis in a number of different experimental designs. The package reads a common aligned read input format, provides data normalization, allows the visualization of candidate interaction regions and detects statistically significant chromatin interactions, thus greatly facilitating hypothesis generation and the interpretation of experimental results. We further demonstrate its use on a series of real-world applications.",
+                    "qas": [
+                        {
+                            "question": "Which package is available for analysing genomic interactions in R/Bioconductor?",
+                            "id": "56a39d60496b62f23f000006",
+                            "answers": [
+                                {
+                                    "text": "r3Cseq",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Development of a real-time fluorescence loop-mediated isothermal amplification assay for rapid and quantitative detection of Fusarium oxysporum f. sp. cubense tropical race 4 in soil. Fusarium oxysporum f. sp. cubense (Foc), the causal agent of Fusarium wilt (Panama disease), is one of the most devastating diseases of banana (Musa spp.). The Foc tropical race 4 (TR4) is currently known as a major concern in global banana production. No effective resistance is known in Musa to Foc, and no effective measures for controlling Foc once banana plants have been infected in place. Early and accurate detection of Foc TR4 is essential to protect banana industry and guide banana planting. A real-time fluorescence loop-mediated isothermal amplification assay (RealAmp) was developed for the rapid and quantitative detection of Foc TR4 in soil. The detection limit of the RealAmp assay was approximately 0.4 pg/\u00b5l plasmid DNA when mixed with extracted soil DNA or 10(3) spores/g of artificial infested soil, and no cross-reaction with other relative pathogens were observed. The RealAmp assay for quantifying genomic DNA of TR4 was confirmed by testing both artificially and naturally infested samples. Quantification of the soil-borne pathogen DNA of Foc TR4 in naturally infested samples was no significant difference compared to classic real-time PCR (P>0.05). Additionally, RealAmp assay was visual with an improved closed-tube visual detection system by adding SYBR Green I fluorescent dye to the inside of the lid prior to amplification, which avoided the inhibitory effects of the stain on DNA amplification and makes the assay more convenient in the field and could thus become a simple, rapid and effective technique that has potential as an alternative tool for the detection and monitoring of Foc TR4 in field, which would be a routine DNA-based testing service for the soil-borne pathogen in South China.",
+                    "qas": [
+                        {
+                            "question": "What is the causative agent of the \"Panama disease\" affecting bananas?",
+                            "id": "56b7083376d8bf8d13000001",
+                            "answers": [
+                                {
+                                    "text": "Fusarium oxysporum f. sp. cubense",
+                                    "answer_start": 125
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

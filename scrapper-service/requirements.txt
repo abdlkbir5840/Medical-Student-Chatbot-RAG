@@ -5,3 +5,5 @@ docling
 rapidocr-onnxruntime
 pypdfium2
 aiofiles==0.8.0 
+transformers
+torch
