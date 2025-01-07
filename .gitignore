@@ -1,0 +1,5 @@
+data-preparation/z-library-pdf.zip
+chatbot-service/data-pdf.zip
+chatbot-service/.chroma_db/chroma.sqlite3
+vector-db/.chroma_db/chroma.sqlite3
+chatbot-service/.venv/lib/python3.9/site-packages/torch/lib/libtorch_cpu.dylib

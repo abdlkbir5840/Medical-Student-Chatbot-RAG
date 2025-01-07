@@ -1,0 +1,5 @@
+streamlit>=1.25.0
+PyPDF2
+PyMuPDF
+streamlit-pdf-viewer
+requests

@@ -1,0 +1,6 @@
+python-multipart
+docling
+rapidocr-onnxruntime
+pypdfium2
+transformers
+

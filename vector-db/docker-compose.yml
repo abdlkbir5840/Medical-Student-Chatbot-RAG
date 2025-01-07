@@ -1,0 +1,13 @@
+services:
+  sqlitebrowser:
+    image: lscr.io/linuxserver/sqlitebrowser:latest
+    container_name: sqlitebrowser
+    environment:
+      - PUID=1000  # Adjust as necessary
+      - PGID=1000  # Adjust as necessary
+      - TZ=Europe/London  # Set your timezone
+    volumes:
+      - ./.chroma_db:/config
+    ports:
+      - 3000:3000
+    restart: unless-stopped

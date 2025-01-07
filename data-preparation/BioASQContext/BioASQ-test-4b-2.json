@@ -1,0 +1,475 @@
+{
+    "version": "BioASQ6b",
+    "data": [
+        {
+            "title": "BioASQ6b",
+            "paragraphs": [
+                {
+                    "context": "A five-gene hedgehog signature developed as a patient preselection tool for hedgehog inhibitor therapy in medulloblastoma. PURPOSE: Distinct molecular subgroups of medulloblastoma, including hedgehog (Hh) pathway-activated disease, have been reported. We identified and clinically validated a five-gene Hh signature assay that can be used to preselect patients with Hh pathway-activated medulloblastoma. EXPERIMENTAL DESIGN: Gene characteristics of the Hh medulloblastoma subgroup were identified through published bioinformatic analyses. Thirty-two genes shown to be differentially expressed in fresh-frozen and formalin-fixed paraffin-embedded tumor samples and reproducibly analyzed by RT-PCR were measured in matched samples. These data formed the basis for building a multi-gene logistic regression model derived through elastic net methods from which the five-gene Hh signature emerged after multiple iterations. On the basis of signature gene expression levels, the model computed a propensity score to determine Hh activation using a threshold set a priori. The association between Hh activation status and tumor response to the Hh pathway inhibitor sonidegib (LDE225) was analyzed. RESULTS: Five differentially expressed genes in medulloblastoma (GLI1, SPHK1, SHROOM2, PDLIM3, and OTX2) were found to associate with Hh pathway activation status. In an independent validation study, Hh activation status of 25 medulloblastoma samples showed 100% concordance between the five-gene signature and Affymetrix profiling. Further, in medulloblastoma samples from 50 patients treated with sonidegib, all 6 patients who responded were found to have Hh-activated tumors. Three patients with Hh-activated tumors had stable or progressive disease. No patients with Hh-nonactivated tumors responded. CONCLUSIONS: This five-gene Hh signature can robustly identify Hh-activated medulloblastoma and may be used to preselect patients who might benefit from sonidegib treatment.",
+                    "qas": [
+                        {
+                            "question": "Which signaling pathway does sonidegib inhibit?",
+                            "id": "56d0451c3975bb303a00000e",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Giant-cell tumor of bone: treatment options and role of denosumab. Giant-cell tumor of bone is a rare, locally aggressive tumor that typically occurs in the bones of skeletally mature young adults in their second to fourth decades. Traditionally, surgery has been the mainstay of therapy for this disease, but the disease can recur even with optimal procedures. Furthermore, it may occur in locations where a surgical approach would be morbid. The maturation of the understanding of the role of the receptor activator of nuclear factor-\u03baB ligand (RANKL) in the pathophysiology of giant-cell tumor of bone has led to the use of denosumab, a monoclonal antibody against RANKL, in this disease. In 2013, the US Food and Drug Administration approved denosumab for use in patients with recurrent/unresectable/metastatic giant-cell tumor of bone or for patients in whom surgery would be morbid.",
+                    "qas": [
+                        {
+                            "question": "Which is the target of the drug Denosumab?",
+                            "id": "56e6ec49edfc094c1f000005",
+                            "answers": [
+                                {
+                                    "text": "receptor activator of nuclear factor-\u03baB ligand",
+                                    "answer_start": 499
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Eliglustat compared with imiglucerase in patients with Gaucher's disease type 1 stabilised on enzyme replacement therapy: a phase 3, randomised, open-label, non-inferiority trial. BACKGROUND: The mainstay of treatment for Gaucher's disease type 1 is alternate-week infusion of enzyme replacement therapy (ERT). We investigated whether patients stable on such treatment would remain so after switching to oral eliglustat, a selective inhibitor of glucosylceramide synthase. METHODS: In this phase 3, randomised, multinational, open-label, non-inferiority trial, we enrolled adults (aged \u226518 years) who had received ERT for 3 years or more for Gaucher's disease. Patients were randomly allocated 2:1 at 39 clinics (stratified by ERT dose; block sizes of four; computer-generated centrally) to receive either oral eliglustat or imiglucerase infusions for 12 months. Participants and investigators were aware of treatment assignment, but the central reader who assessed organ volumes was masked. The composite primary efficacy endpoint was percentage of patients whose haematological variables and organ volumes remained stable for 12 months (ie, haemoglobin decrease not more than 15 g/L, platelet count decrease not more than 25%, spleen volume increase not more than 25%, and liver volume increase not more than 20%, in multiples of normal from baseline). The non-inferiority margin was 25% for eliglustat relative to imiglucerase, assessed in all patients who completed 12 months of treatment. This trial is registered with ClinicalTrials.gov, number NCT00943111, and EudraCT, number 2008-005223-28. FINDINGS: Between Sept 15, 2009, and Nov 9, 2011, we randomly allocated 106 (66%) patients to eliglustat and 54 (34%) to imiglucerase. In the per-protocol population, 84 (85%) of 99 patients who completed eliglustat treatment and 44 (94%) of 47 patients who completed imiglucerase treatment met the composite primary endpoint (between-group difference -8\u00b78%; 95% CI -17\u00b76 to 4\u00b72). The lower bound of the 95% CI of -17\u00b76% was within the prespecified threshold for non-inferiority. Dropouts occurred due to palpitations (one patient on eliglustat), myocardial infarction (one patient on eliglustat), and psychotic disorder (one patient on imiglucerase). No deaths occurred. 97 (92%) of 106 patients in the eliglustat group had treatment-emergent adverse events, as did 42 (79%) of 53 in the imiglucerase group (mostly mild or moderate in severity). INTERPRETATION: Oral eliglustat maintained haematological and organ volume stability in adults with Gaucher's disease type 1 already controlled by intravenous ERT and could be a useful therapeutic option. FUNDING: Genzyme, a Sanofi company.",
+                    "qas": [
+                        {
+                            "question": "Which disease is treated with Eliglustat?",
+                            "id": "56c1f009ef6e39474100003c",
+                            "answers": [
+                                {
+                                    "text": "Gaucher's disease type 1",
+                                    "answer_start": 55
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Post-surgical outcome for epilepsy associated with type I focal cortical dysplasia subtypes. Focal cortical dysplasias are a well-recognized cause of medically intractable seizures. The clinical relevance of certain subgroups of the International League Against Epilepsy (ILAE) classification scheme remains to be determined. The aim of the present work is to assess the effect of the focal cortical dysplasia type Ib and Ic histologic subtypes on surgical outcome with respect to seizure frequency. This study also provides an opportunity to compare the predictive value of the ILAE and Palmini et al classification schemes with regard to the type I focal cortical dysplasias. We retrospectively reviewed 91 focal cortical dysplasia patients (55% female; median age: 19 years (interquartile range 8-34); median seizure duration: 108 months (interquartile range 36-204)) with chronic epilepsy who underwent surgery. We compared the pathological subtypes, evaluating the patients' post-surgical outcome with respect to seizure frequency according to the Engel's classification and the ILAE outcome classification. Both the ILAE classification scheme and Palmini et al classification scheme were utilized to classify the histologic subtype. Using \u03c7(2) and Fisher's exact tests, we compared the post-surgical outcomes among these groups. Of the 91 patients, there were 50 patients with ILAE focal cortical dysplasia type Ib, 41 with ILAE focal cortical dysplasia type Ic, 63 with Palmini et al focal cortical dysplasia type IA, and 28 with Palmini et al focal cortical dysplasia type IB. After surgery, 44 patients (48%) were seizure-free. Crude analysis revealed no significant difference between patients with subtypes of ILAE focal cortical dysplasia type I or Palmini et al focal cortical dysplasia type I concerning postoperative outcome according to the Engel and ILAE scoring systems on seizure frequency. Our findings revealed no significant difference concerning surgical outcome with respect to seizure frequency for the histologic subtypes of ILAE focal cortical dysplasia type I (Ib vs Ic) or Palmini et al focal cortical dysplasia type I (IA vs IB). In isolation, the histologic subtype of focal cortical dysplasia type I does not appear predictive of postoperative outcome.",
+                    "qas": [
+                        {
+                            "question": "Which disorder is rated by Palmini classification?",
+                            "id": "56c1f020ef6e394741000047",
+                            "answers": [
+                                {
+                                    "text": "focal cortical dysplasia",
+                                    "answer_start": 58
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Dax1 associates with Esrrb and regulates its function in embryonic stem cells. Self-renewal capacity and pluripotency, which are controlled by the Oct3/4-centered transcriptional regulatory network, are major characteristics of embryonic stem (ES) cells. Nuclear hormone receptor Dax1 is one of the crucial factors in the network. Here, we identified an orphan nuclear receptor, Esrrb (estrogen-related receptor beta), as a Dax1-interacting protein. Interaction of Dax1 and Esrrb was mediated through LXXLL motifs of Dax1 and the activation- and ligand-binding domains of Esrrb. Furthermore, Esrrb enhanced the promoter activity of the Dax1 gene via direct binding to Esrrb-binding site 1 (ERRE1, where \"ERRE\" represents \"Esrrb-responsive element\") of the promoter. Expression of Dax1 was suppressed followed by Oct3/4 repression; however, overexpression of Esrrb maintained expression of Dax1 even in the absence of Oct3/4, indicating that Dax1 is a direct downstream target of Esrrb and that Esrrb can regulate Dax1 expression in an Oct3/4-independent manner. We also found that the transcriptional activity of Esrrb was repressed by Dax1. Furthermore, we revealed that Oct3/4, Dax1, and Esrrb have a competitive inhibition capacity for each complex. These data, together with previous findings, suggest that Dax1 functions as a negative regulator of Esrrb and Oct3/4, and these molecules form a regulatory loop for controlling the pluripotency and self-renewal capacity of ES cells.",
+                    "qas": [
+                        {
+                            "question": "What is the link between Dax1 and Esrrb?",
+                            "id": "56a8ee75a17756b72f000007",
+                            "answers": [
+                                {
+                                    "text": "Dax1 associates with Esrrb and regulates its function in embryonic stem cells.",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "A novel mutation in the endosomal Na+/H+ exchanger NHE6 (SLC9A6) causes Christianson syndrome with electrical status epilepticus during slow-wave sleep (ESES). Mutations in the solute carrier family 9, subfamily A member 6 (SLC9A6) gene, encoding the endosomal Na+/H+ exchanger 6 (NHE6) are associated with Christianson syndrome, a syndromic form of X-linked intellectual disability characterized by microcephaly, severe global developmental delay, autistic behavior, early onset seizures and ataxia. In a 7-year-old boy with characteristic clinical and neuroimaging features of Christianson syndrome and epileptic encephalopathy with continuous spikes and waves during sleep, we identified a novel splice site mutation (IVS10-1G>A) in SLC9A6. These findings expand the clinical spectrum of the syndrome and indicate NHE6 dysfunction as a new cause of electrical status epilepticus during slow-wave sleep (ESES).",
+                    "qas": [
+                        {
+                            "question": "Which syndrome is NHE6 associated with?",
+                            "id": "56d860ad51531f7e33000002",
+                            "answers": [
+                                {
+                                    "text": "Christianson syndrome",
+                                    "answer_start": 72
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Stem cells. m6A mRNA methylation facilitates resolution of na\u00efve pluripotency toward differentiation. Na\u00efve and primed pluripotent states retain distinct molecular properties, yet limited knowledge exists on how their state transitions are regulated. Here, we identify Mettl3, an N(6)-methyladenosine (m(6)A) transferase, as a regulator for terminating murine na\u00efve pluripotency. Mettl3 knockout preimplantation epiblasts and na\u00efve embryonic stem cells are depleted for m(6)A in mRNAs, yet are viable. However, they fail to adequately terminate their na\u00efve state and, subsequently, undergo aberrant and restricted lineage priming at the postimplantation stage, which leads to early embryonic lethality. m(6)A predominantly and directly reduces mRNA stability, including that of key na\u00efve pluripotency-promoting transcripts. This study highlights a critical role for an mRNA epigenetic modification in vivo and identifies regulatory modules that functionally influence na\u00efve and primed pluripotency in an opposing manner.",
+                    "qas": [
+                        {
+                            "question": "Which properties of the mRNA does N6-methyladenosine (m6A) affect?",
+                            "id": "56df03c751531f7e3300000a",
+                            "answers": [
+                                {
+                                    "text": "mRNA stability",
+                                    "answer_start": 744
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Virus-associated small satellite RNAs and viroids display similarities in their replication strategies. Since the discovery of non-coding, small, highly structured, satellite RNAs (satRNAs) and viroids as subviral pathogens of plants , have been of great interest to molecular biologists as possible living fossils of pre-cellular evolution in an RNA world. Despite extensive studies performed in the last four decades, there is still mystery surrounding the origin and evolutionary relationship between these subviral pathogens. Recent technical advances revealed some commonly shared replication features between these two subviral pathogens. In this review, we discuss our current perception of replication and evolutionary origin of these petite RNA pathogens.",
+                    "qas": [
+                        {
+                            "question": "Which are the smallest known subviral pathogens of plants?",
+                            "id": "56e0447a51531f7e3300000b",
+                            "answers": [
+                                {
+                                    "text": "viroids",
+                                    "answer_start": 42
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The beet Y locus encodes an anthocyanin MYB-like protein that activates the betalain red pigment pathway. Nearly all flowering plants produce red/violet anthocyanin pigments. Caryophyllales is the only order containing families that replace anthocyanins with unrelated red and yellow betalain pigments. Close biological correlation of pigmentation patterns suggested that betalains might be regulated by a conserved anthocyanin-regulating transcription factor complex consisting of a MYB, a bHLH and a WD repeat-containing protein (the MBW complex). Here we show that a previously uncharacterized anthocyanin MYB-like protein, Beta vulgaris MYB1 (BvMYB1), regulates the betalain pathway in beets. Silencing BvMYB1 downregulates betalain biosynthetic genes and pigmentation, and overexpressing BvMYB1 upregulates them. However, unlike anthocyanin MYBs, BvMYB1 will not interact with bHLH members of heterologous anthocyanin MBW complexes because of identified nonconserved residues. BvMYB1 resides at the historic beet pigment-patterning locus, Y, required for red-fleshed beets. We show that Y and y express different levels of BvMYB1 transcripts. The co-option of a transcription factor regulating anthocyanin biosynthesis would be an important evolutionary event allowing betalains to largely functionally replace anthocyanins.",
+                    "qas": [
+                        {
+                            "question": "Which trancription factor activates the betalain pathway?",
+                            "id": "56d138fe3975bb303a000015",
+                            "answers": [
+                                {
+                                    "text": "The beet Y locus encodes an anthocyanin MYB-like protein that activates the betalain red pigment pathway.",
+                                    "answer_start": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The telomerase inhibitor imetelstat alone, and in combination with trastuzumab, decreases the cancer stem cell population and self-renewal of HER2+ breast cancer cells. Cancer stem cells (CSCs) are thought to be responsible for tumor progression, metastasis, and recurrence. HER2 overexpression is associated with increased CSCs, which may explain the aggressive phenotype and increased likelihood of recurrence for HER2(+) breast cancers. Telomerase is reactivated in tumor cells, including CSCs, but has limited activity in normal tissues, providing potential for telomerase inhibition in anti-cancer therapy. The purpose of this study was to investigate the effects of a telomerase antagonistic oligonucleotide, imetelstat (GRN163L), on CSC and non-CSC populations of HER2(+) breast cancer cell lines. The effects of imetelstat on CSC populations of HER2(+) breast cancer cells were measured by ALDH activity and CD44/24 expression by flow cytometry as well as mammosphere assays for functionality. Combination studies in vitro and in vivo were utilized to test for synergism between imetelstat and trastuzumab. Imetelstat inhibited telomerase activity in both subpopulations. Moreover, imetelstat alone and in combination with trastuzumab reduced the CSC fraction and inhibited CSC functional ability, as shown by decreased mammosphere counts and invasive potential. Tumor growth rate was slower in combination-treated mice compared to either drug alone. Additionally, there was a trend toward decreased CSC marker expression in imetelstat-treated xenograft cells compared to vehicle control. Furthermore, the observed decrease in CSC marker expression occurred prior to and after telomere shortening, suggesting that imetelstat acts on the CSC subpopulation in telomere length-dependent and -independent mechanisms. Our study suggests addition of imetelstat to trastuzumab may enhance the effects of HER2 inhibition therapy, especially in the CSC population.",
+                    "qas": [
+                        {
+                            "question": "Which enzyme is inhibited by Imetelstat?",
+                            "id": "56c048acef6e39474100001c",
+                            "answers": [
+                                {
+                                    "text": "telomerase",
+                                    "answer_start": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "A novel complex, RUNX1-MYEF2, represses hematopoietic genes in erythroid cells. RUNX1 is known to be an essential transcription factor for generating hematopoietic stem cells (HSC), but much less is known about its role in the downstream process of hematopoietic differentiation. RUNX1 has been shown to be part of a large transcription factor complex, together with LDB1, GATA1, TAL1, and ETO2 (N. Meier et al., Development 133:4913-4923, 2006) in erythroid cells. We used a tagging strategy to show that RUNX1 interacts with two novel protein partners, LSD1 and MYEF2, in erythroid cells. MYEF2 is bound in undifferentiated cells and is lost upon differentiation, whereas LSD1 is bound in differentiated cells. Chromatin immunoprecipitation followed by sequencing (ChIP-seq) and microarray expression analysis were used to show that RUNX1 binds approximately 9,000 target sites in erythroid cells and is primarily active in the undifferentiated state. Functional analysis shows that a subset of the target genes is suppressed by RUNX1 via the newly identified partner MYEF2. Knockdown of Myef2 expression in developing zebrafish results in a reduced number of HSC.",
+                    "qas": [
+                        {
+                            "question": "What is the role of the RUNX1-MYEF2 complex?",
+                            "id": "56ae70050a360a5e4500000f",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Chromosomal mobilization and reintegration of Sleeping Beauty and PiggyBac transposons. The Sleeping Beauty and PiggyBac DNA transposon systems have recently been developed as tools for insertional mutagenesis. We have compared the chromosomal mobilization efficiency and insertion site preference of the two transposons mobilized from the same donor site in mouse embryonic stem (ES) cells under conditions in which there were no selective constraints on the transposons' insertion sites. Compared with Sleeping Beauty, PiggyBac exhibits higher transposition efficiencies, no evidence for local hopping and a significant bias toward reintegration in intragenic regions, which demonstrate its utility for insertional mutagenesis. Although Sleeping Beauty had no detectable genomic bias with respect to insertions in genes or intergenic regions, both Sleeping Beauty and PiggyBac transposons displayed preferential integration into actively transcribed loci.",
+                    "qas": [
+                        {
+                            "question": "Do the Sleeping Beauty or the piggyBac transposons have higher transposition efficiency?",
+                            "id": "56c4d14ab04e159d0e000003",
+                            "answers": [
+                                {
+                                    "text": "PiggyBac",
+                                    "answer_start": 66
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Hypermethylation of the CpG dinucleotide in epidermal growth factor receptor codon 790: implications for a mutational hotspot leading to the T790M mutation in non-small-cell lung cancer. Nearly one half of all cases of acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) for non-small-cell lung cancer (NSCLC) are due to the T790M mutation in EGFR exon 20. The T790M mutation is a C\u2192T transition mutation at a CpG dinucleotide. DNA methylation of cytosine (5-methylcytosine (5-mC)) in CpG dinucleotides is a common DNA modification; CpG dinucleotides are considered to be mutational hotspots that cause genetic diseases and cancers through spontaneous deamination of 5-mC, resulting in C\u2192T transition mutations. This study aimed to examine the methylation level of cytosine of EGFR codon 790 and investigate whether DNA methylation was involved in acquiring the T790M mutation. We examined 18 NSCLC tumor tissues, 7 normal lymph node tissues, and 4 NSCLC cell lines (PC9, HCC827, 11-18, and A549). 5-mC was checked by bisulfite sequencing and quantified by pyrosequencing. We found that all tissue samples and cell lines had 5-mC in EGFR codon 790. The 5-mC range was 58.4-90.8%. Our results imply that hypermethylation of the CpG dinucleotide in EGFR codon 790 leads to the C\u2192T transition mutation, causing resistance to EGFR-TKI treatment.",
+                    "qas": [
+                        {
+                            "question": "Which gene harbors the mutation T790M?",
+                            "id": "56d1f790f22319765a000001",
+                            "answers": [
+                                {
+                                    "text": "EGFR",
+                                    "answer_start": 276
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Imaging of Ca2+ responses mediated by presynaptic L-type channels on GABAergic boutons of cultured hippocampal neurons. We have previously demonstrated that L-type Ca(2+) channels are involved in post-tetanic potentiation (PTP) of GABAergic IPSCs in cultured hippocampal neurons. Here we have used intracellular Fluo-3 to detect [Ca(2+)](i) in single GABAergic boutons in response to stimulation that evokes PTP. During control stimulation of the presynaptic GABAergic neuron at 40 Hz for 1-2 s, DeltaF/F(0) increased rapidly to a peak value and started to decline shortly after the train ended, returning to baseline within 10-20 s. The L-type channel blocker, isradipine (5 microM), had no significant effect on the amplitude or kinetics of the Ca(2+) signal. Following blockade of N- and P/Q-type Ca(2+)-channels, the amplitude was reduced by 52.9+/-3%. Isradipine caused a reduction of the remaining response (by 26.6+/-5%, P<0.01), that was fully reversible on washing. The L-type channel \"agonist\", BayK 8644 (8 microM), caused a significant enhancement of the peak (by 18.7%+/-7%, P<0.05). The rising phase of the Ca(2+) signal, which is related to the rate of entry of Ca(2+) into the bouton, was decreased by isradipine (by 25.5+/-6%, P<0.05) and enhanced by BayK 8644 (by 45.2%+/-16%, P<0.05). These Ca(2+) imaging experiments support the putative role of L-type channels in PTP of GABAergic synapses on cultured hippocampal neurons. We expect L-channels to be few in number, although they may couple strongly to intracellular signalling cascades that could amplify a signal that regulates synaptic vesicle turnover in the GABAergic boutons.",
+                    "qas": [
+                        {
+                            "question": "What does isradipine do to L-type channels?",
+                            "id": "56cf20eb3975bb303a000001",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Cell-cycle regulation of cohesin stability along fission yeast chromosomes. Sister chromatid cohesion is mediated by cohesin, but the process of cohesion establishment during S-phase is still enigmatic. In mammalian cells, cohesin binding to chromatin is dynamic in G1, but becomes stabilized during S-phase. Whether the regulation of cohesin stability is integral to the process of cohesion establishment is unknown. Here, we provide evidence that fission yeast cohesin also displays dynamic behavior. Cohesin association with G1 chromosomes requires continued activity of the cohesin loader Mis4/Ssl3, suggesting that repeated loading cycles maintain cohesin binding. Cohesin instability in G1 depends on wpl1, the fission yeast ortholog of mammalian Wapl, suggestive of a conserved mechanism that controls cohesin stability on chromosomes. wpl1 is nonessential, indicating that a change in wpl1-dependent cohesin dynamics is dispensable for cohesion establishment. Instead, we find that cohesin stability increases at the time of S-phase in a reaction that can be uncoupled from DNA replication. Hence, cohesin stabilization might be a pre-requisite for cohesion establishment rather than its consequence.",
+                    "qas": [
+                        {
+                            "question": "During which stage of the cell cycle is cohesin deposited on the yeast genome?",
+                            "id": "56e2acfe51531f7e33000014",
+                            "answers": [
+                                {
+                                    "text": "S-phase",
+                                    "answer_start": 175
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Structural ramification for acetyl-lysine recognition by the bromodomain of human BRG1 protein, a central ATPase of the SWI/SNF remodeling complex. Bromodomains represent an extensive family of evolutionarily conserved domains that are found in many chromatin-associated proteins such as histone acetyltransferases (HAT) and subunits of ATP-dependent chromatin-remodeling complexes. These domains are associated with acetylated lysine residues that bind both in vivo and in vitro; for example, they bind to the N-acetylated lysines of the histone tail of nucleosomes. In this report, we determined the structure of the bromodomain from human brahma-related gene 1 (BRG1) protein, a subunit of an ATP-dependent switching/sucrose nonfermenting (SWI/SNF) remodeling complex, and have also characterized its in vitro interaction with N-acetylated lysine peptides from histones. In addition to a typical all-alpha-helical fold that was observed in the bromodomains, we observed for the first time a small beta-sheet in the ZA loop region of the BRG1 protein. The BRG1 bromodomain exhibited binding, albeit weak, to acetylated peptides that were derived from histones H3 and H4. We have compared the acetyl-lysine binding sites of BRG1 bromodomain with the yGCN5 (general control of amino acid biosynthesis). By modeling the acetylated-lysine peptide into the BRG1 bromodomain structure, we were able to explain the weak binding of acetylated-lysine peptides to this bromodomain.",
+                    "qas": [
+                        {
+                            "question": "What is the structural fold of bromodomain proteins?",
+                            "id": "56e2cec751531f7e33000015",
+                            "answers": [
+                                {
+                                    "text": "all-alpha-helical fold",
+                                    "answer_start": 899
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Chromatin states reveal functional associations for globally defined transcription start sites in four human cell lines. BACKGROUND: Deciphering the most common modes by which chromatin regulates transcription, and how this is related to cellular status and processes is an important task for improving our understanding of human cellular biology. The FANTOM5 and ENCODE projects represent two independent large scale efforts to map regulatory and transcriptional features to the human genome. Here we investigate chromatin features around a comprehensive set of transcription start sites in four cell lines by integrating data from these two projects. RESULTS: Transcription start sites can be distinguished by chromatin states defined by specific combinations of both chromatin mark enrichment and the profile shapes of these chromatin marks. The observed patterns can be associated with cellular functions and processes, and they also show association with expression level, location relative to nearby genes, and CpG content. In particular we find a substantial number of repressed inter- and intra-genic transcription start sites enriched for active chromatin marks and Pol II, and these sites are strongly associated with immediate-early response processes and cell signaling. Associations between start sites with similar chromatin patterns are validated by significant correlations in their global expression profiles. CONCLUSIONS: The results confirm the link between chromatin state and cellular function for expressed transcripts, and also indicate that active chromatin states at repressed transcripts may poise transcripts for rapid activation during immune response.",
+                    "qas": [
+                        {
+                            "question": "What was the purpose of the FANTOM5 project?",
+                            "id": "569e731cca240fa209000003",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 9
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Transcript annotation in FANTOM3: mouse gene catalog based on physical cDNAs. The international FANTOM consortium aims to produce a comprehensive picture of the mammalian transcriptome, based upon an extensive cDNA collection and functional annotation of full-length enriched cDNAs. The previous dataset, FANTOM2, comprised 60,770 full-length enriched cDNAs. Functional annotation revealed that this cDNA dataset contained only about half of the estimated number of mouse protein-coding genes, indicating that a number of cDNAs still remained to be collected and identified. To pursue the complete gene catalog that covers all predicted mouse genes, cloning and sequencing of full-length enriched cDNAs has been continued since FANTOM2. In FANTOM3, 42,031 newly isolated cDNAs were subjected to functional annotation, and the annotation of 4,347 FANTOM2 cDNAs was updated. To accomplish accurate functional annotation, we improved our automated annotation pipeline by introducing new coding sequence prediction programs and developed a Web-based annotation interface for simplifying the annotation procedures to reduce manual annotation errors. Automated coding sequence and function prediction was followed with manual curation and review by expert curators. A total of 102,801 full-length enriched mouse cDNAs were annotated. Out of 102,801 transcripts, 56,722 were functionally annotated as protein coding (including partial or truncated transcripts), providing to our knowledge the greatest current coverage of the mouse proteome by full-length cDNAs. The total number of distinct non-protein-coding transcripts increased to 34,030. The FANTOM3 annotation system, consisting of automated computational prediction, manual curation, and final expert curation, facilitated the comprehensive characterization of the mouse transcriptome, and could be applied to the transcriptomes of other species.",
+                    "qas": [
+                        {
+                            "question": "What was the purpose of the FANTOM3 project?",
+                            "id": "569e79ecceceede94d000002",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Efficacy and safety of second-line agents for treatment of metastatic castration-resistant prostate cancer progressing after docetaxel. A systematic review and meta-analysis. OBJECTIVE: We performed a systematic review of the literature to assess the efficacy and the safety of second-line agents targeting metastatic castration-resistant prostate cancer (mCRPC) that has progressed after docetaxel. Pooled-analysis was also performed, to assess the effectiveness of agents targeting the androgen axis via identical mechanisms of action (abiraterone acetate, orteronel). MATERIALS AND METHODS: We included phase III randomized controlled trials that enrolled patients with mCRPC progressing during or after first-line docetaxel treatment. Trials were identified by electronic database searching. The primary outcome of the review was overall survival. Secondary outcomes were radiographic progression-free survival (rPFS) and severe adverse effects (grade 3 or higher). RESULTS: Ten articles met the inclusion criteria for the review. These articles reported the results of five clinical trials, enrolling in total 5047 patients. The experimental interventions tested in these studies were enzalutamide, ipilimumab, abiraterone acetate, orteronel and cabazitaxel. Compared to control cohorts (active drug-treated or placebo-treated), the significant overall survival advantages achieved were 4.8 months for enzalutamide (hazard ratio for death vs. placebo: 0.63; 95% CI 0.53 to 0.75, P < 0.0001), 4.6 months for abiraterone (hazard ratio for death vs. placebo: 0.66, 95% CI 0.58 to 0.75, P < 0.0001) and 2.4 months for cabazitaxel (hazard ratio for death vs. mitoxantrone-prednisone: 0.70, 95% CI 0.59 to 0.83, p < 0.0001). Pooled analysis of androgen synthesis inhibitors orteronel and abiraterone resulted in significantly increased overall and progression-free survival for anti-androgen agents, compared to placebo (hazard ratio for death: 0.76, 95% CI 0.67 to 0.87, P < 0.0001; hazard ratio for radiographic progression: 0.7, 95% CI 0.63 to 0.77, P < 0.00001). Androgen synthesis inhibitors induced significant increases in risk ratios for adverse effects linked to elevated mineralocorticoid secretion, compared to placebo (risk ratio for hypokalemia: 5.75, 95% CI 2.08 to 15.90; P = 0.0008; risk-ratio for hypertension: 2.29, 95% CI 1.02 to 5.17; P = 0.05). CONCLUSIONS: In docetaxel-pretreated patients enzalutamide, abiraterone-prednisone and cabazitaxel-prednisone can improve overall survival of patients, compared to placebo or to best of care at the time of study (mitoxantrone-prednisone). Agents targeting the androgen axis (enzalutamide, abiraterone, orteronel) significantly prolonged rPFS, compared to placebo. Further investigation is warranted to evaluate the benefit of combination or sequential administration of these agents. Large-scale studies are also necessary to evaluate the impact of relevant toxic effects observed in a limited number of patients (e.g., enzalutamide-induced seizures, orteronel-induced pancreatitis, and others).",
+                    "qas": [
+                        {
+                            "question": "Orteronel was developed for treatment of which cancer?",
+                            "id": "56c1f01def6e394741000045",
+                            "answers": [
+                                {
+                                    "text": "castration-resistant prostate cancer",
+                                    "answer_start": 70
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Restoration of the dystrophin-associated glycoprotein complex after exon skipping therapy in Duchenne muscular dystrophy. We previously conducted a proof of principle; dose escalation study in Duchenne muscular dystrophy (DMD) patients using the morpholino splice-switching oligonucleotide AVI-4658 (eteplirsen) that induces skipping of dystrophin exon 51 in patients with relevant deletions, restores the open reading frame and induces dystrophin protein expression after intramuscular (i.m.) injection. We now show that this dystrophin expression was accompanied by an elevated expression of \u03b1-sarcoglycan, \u03b2-dystroglycan (BDG) and--in relevant cases--neuronal nitric oxide synthase (nNOS) at the sarcolemma, each of which is a component of a different subcomplex of the dystrophin-associated glycoprotein complex (DAPC). As expected, nNOS expression was relocalized to the sarcolemma in Duchenne patients in whom the dystrophin deletion left the nNOS-binding domain (exons 42-45) intact, whereas this did not occur in patients with deletions that involved this domain. Our results indicate that the novel internally deleted and shorter dystrophin induced by skipping exon 51 in patients with amenable deletions, can also restore the dystrophin-associated complex, further suggesting preserved functionality of the newly translated dystrophin.",
+                    "qas": [
+                        {
+                            "question": "What is the role of eteplirsen in DMD patients?",
+                            "id": "56a24dfffe92d6fd19000002",
+                            "answers": [
+                                {
+                                    "text": "skipping of dystrophin exon 51",
+                                    "answer_start": 325
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "The origin of mitochondria in light of a fluid prokaryotic chromosome model. Biologists agree that the ancestor of mitochondria was an alpha-proteobacterium. But there is no consensus as to what constitutes an alpha-proteobacterial gene. Is it a gene found in all or several alpha-proteobacteria, or in only one? Here, we examine the proportion of alpha-proteobacterial genes in alpha-proteobacterial genomes by means of sequence comparisons. We find that each alpha-proteobacterium harbours a particular collection of genes and that, depending upon the lineage examined, between 97 and 33% are alpha-proteobacterial by the nearest-neighbour criterion. Our findings bear upon attempts to reconstruct the mitochondrial ancestor and upon inferences concerning the collection of genes that the mitochondrial ancestor possessed at the time that it became an endosymbiont.",
+                    "qas": [
+                        {
+                            "question": "Which species of bacteria did the mitochondria originate from?",
+                            "id": "56c58f1b5795f9a73e000001",
+                            "answers": [
+                                {
+                                    "text": "Biologists agree that the ancestor of mitochondria was an alpha-proteobacterium.",
+                                    "answer_start": 77
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Heme and FLVCR-related transporter families SLC48 and SLC49. Heme is critical for a variety of cellular processes, but excess intracellular heme may result in oxidative stress and membrane injury. Feline leukemia virus subgroup C receptor (FLVCR1), a member of the SLC49 family of four paralogous genes, is a cell surface heme exporter, essential for erythropoiesis and systemic iron homeostasis. Disruption of FLVCR1 function blocks development of erythroid progenitors, likely due to heme toxicity. Mutations of SLC49A1 encoding FLVCR1 are noted in patients with a rare neurodegenerative disorder: posterior column ataxia with retinitis pigmentosa. FLVCR2 is highly homologous to FLVCR1 and may function as a cellular heme importer. Mutations of SLC49A2 encoding FLVCR2 are observed in Fowler syndrome, a rare proliferative vascular disorder of the brain. The functions of the remaining members of the SLC49 family, MFSD7 and DIRC2 (encoded by the SLC49A3 and SLC49A4 genes), are unknown, although the latter is implicated in hereditary renal carcinomas. SLC48A1 (heme responsive gene-1, HRG-1), the sole member of the SLC48 family, is associated with the endosome and appears to transport heme from the endosome into the cytosol.",
+                    "qas": [
+                        {
+                            "question": "Which SLC family is FLVCR1 a member of?",
+                            "id": "56d85e7751531f7e33000001",
+                            "answers": [
+                                {
+                                    "text": "SLC49",
+                                    "answer_start": 54
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "RNA polymerase III transcription - regulated by chromatin structure and regulator of nuclear chromatin organization. RNA polymerase III (Pol III) transcription is regulated by modifications of the chromatin. DNA methylation and post-translational modifications of histones, such as acetylation, phosphorylation and methylation have been linked to Pol III transcriptional activity. In addition to being regulated by modifications of DNA and histones, Pol III genes and its transcription factors have been implicated in the organization of nuclear chromatin in several organisms. In yeast, the ability of the Pol III transcription system to contribute to nuclear organization seems to be dependent on direct interactions of Pol III genes and/or its transcription factors TFIIIC and TFIIIB with the structural maintenance of chromatin (SMC) protein-containing complexes cohesin and condensin. In human cells, Pol III genes and transcription factors have also been shown to colocalize with cohesin and the transcription regulator and genome organizer CCCTC-binding factor (CTCF). Furthermore, chromosomal sites have been identified in yeast and humans that are bound by partial Pol III machineries (extra TFIIIC sites - ETC; chromosome organizing clamps - COC). These ETCs/COC as well as Pol III genes possess the ability to act as boundary elements that restrict spreading of heterochromatin.",
+                    "qas": [
+                        {
+                            "question": "Where does CTCF colocalize with cohesin?",
+                            "id": "56c5c7915795f9a73e000004",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Analysis of the CFTR gene in Iranian cystic fibrosis patients: identification of eight novel mutations. BACKGROUND: Cystic fibrosis (CF) is the most common inherited disorder in Caucasian populations, with over 1400 mutations identified in the Cystic Fibrosis Transmembrane conductance Regulator (CFTR) gene. Mutations in the CFTR gene may be also causative for CBAVD (Congenital Bilateral Absence of the Vas Deferens). The type and distribution of mutations varies widely between different countries and/or ethnic groups, and is relatively unknown in Iran. We therefore performed a comprehensive analysis of the CFTR gene in Iranian CF patients. METHODS: 69 Iranian CF patients, and 1 CBAVD patient, were analysed for mutations in the complete coding region, and its exon/intron junctions, of their CFTR genes, using different methods, such as ARMS (amplification refractory mutation system)-PCR, SSCP (single stranded conformation polymorphism) analysis, restriction enzyme digestion analysis, direct sequencing, and MLPA (Multiplex Ligation-mediated Probe Amplification). RESULTS: CFTR mutation analysis revealed the identification of 37 mutations in 69 Iranian CF patients. Overall, 81.9% (113/138) CFTR genes derived from Iranian CF patients could be characterized for a disease-causing mutation. The CBAVD patient was found to be homozygous for the p.W1145R mutation. The most common mutations were p.F508del (DeltaF508) (18.1%), c.2183_2184delAAinsG (2183AA>G) (6.5%), p.S466X (5.8%), p.N1303K (4.3%), c.2789+5G>A (4.3%), p.G542X (3.6%), c.3120+1G>A (3.6%), p.R334W (2.9%) and c.3130delA (2.9%). These 9 types of mutant CFTR genes totaled for 52% of all CFTR genes derived from the 69 Iranian CF patients. Eight mutations, c.406-8T>C, p.A566D, c.2576delA, c.2752-1_2756delGGTGGCinsTTG, p.T1036I, p.W1145R, c.3850-24G>A, c.1342-?_1524+?del, were found for the first time in this study. CONCLUSIONS: We identified 37 CFTR mutations in 69 well characterized Iranian CF patients, obtaining a CFTR mutation detection rate of 81.9%, the highest detection rate obtained in the Iranian population so far. These findings will assist in genetic counseling, prenatal diagnosis and future screening of CF in Iran.",
+                    "qas": [
+                        {
+                            "question": "Which is the most common CFTR mutation in Caucasians?",
+                            "id": "56c5feb75795f9a73e000006",
+                            "answers": [
+                                {
+                                    "text": "DeltaF508",
+                                    "answer_start": 1416
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Increased expression of lysosomal acid phosphatase in CLN3-defective cells and mouse brain tissue. Juvenile neuronal ceroid lipofuscinosis (Batten disease) is a neurodegenerative disorder caused by defective function of the lysosomal membrane glycoprotein CLN3. The activity of the lysosomal acid phosphatase (LAP/ACP2) was found to be significantly increased in the cerebellum and brain stem of Cln3-targeted mice during the early stages of postnatal life. Histochemical localization studies revealed an increased LAP/ACP2 staining intensity in neurons of the cerebral cortex of 48-week-old Cln3-targeted mice as compared with controls. Additionally, the expression of another lysosomal membrane protein LAMP-2 was increased in all brain areas. Knockdown of CLN3 expression in HeLa cells by RNA interference also resulted in increased LAP/ACP2 and LAMP-2 expression. Finally in fibroblasts of two juvenile neuronal ceroid lipofuscinosis patients elevated levels of LAP/ACP2 were found. Both activation of gene transcription and increased protein half-life appear to contribute to increased LAP/ACP2 protein expression in CLN3-deficient cells. The data suggest that lysosomal dysfunction and accumulation of storage material require increased biogenesis of LAP/ACP2 and LAMP-2 positive membranes which makes LAP/ACP2 suitable as biomarker of Batten disease.",
+                    "qas": [
+                        {
+                            "question": "What is the effect of a defective CLN3 gene?",
+                            "id": "56b710f276d8bf8d13000003",
+                            "answers": [
+                                {
+                                    "text": "Batten disease",
+                                    "answer_start": 140
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Inhibition of T-type calcium channels and hydrogen sulfide-forming enzyme reverses paclitaxel-evoked neuropathic hyperalgesia in rats. Hydrogen sulfide (H\u2082S), a gasotransmitter, facilitates pain sensation by targeting Ca(v)3.2 T-type calcium channels. The H\u2082S/Ca(v)3.2 pathway appears to play a role in the maintenance of surgically evoked neuropathic pain. Given evidence that chemotherapy-induced neuropathic pain is blocked by ethosuximide, known to block T-type calcium channels, we examined if more selective T-type calcium channel blockers and also inhibitors of cystathionine-\u03b3-lyase (CSE), a major H\u2082S-forming enzyme in the peripheral tissue, are capable of reversing the neuropathic pain evoked by paclitaxel, an anti-cancer drug. It was first demonstrated that T-type calcium channel blockers, NNC 55-0396, known to inhibit Ca(v)3.1, and mibefradil inhibited T-type currents in Ca(v)3.2-transfected HEK293 cells. Repeated systemic administration of paclitaxel caused delayed development of mechanical hyperalgesia, which was reversed by single intraplantar administration of NNC 55-0396 or mibefradil, and by silencing of Ca(v)3.2 by antisense oligodeoxynucleotides. Systemic administration of dl-propargylglycine and \u03b2-cyanoalanine, irreversible and reversible inhibitors of CSE, respectively, also abolished the established neuropathic hyperalgesia. In the paclitaxel-treated rats, upregulation of Ca(v)3.2 and CSE at protein levels was not detected in the dorsal root ganglia (DRG), spinal cord or peripheral tissues including the hindpaws, whereas H(2)S content in hindpaw tissues was significantly elevated. Together, our study demonstrates the effectiveness of NNC 55-0396 in inhibiting Ca(v)3.2, and then suggests that paclitaxel-evoked neuropathic pain might involve the enhanced activity of T-type calcium channels and/or CSE in rats, but not upregulation of Ca(v)3.2 and CSE at protein levels, differing from the previous evidence for the neuropathic pain model induced by spinal nerve cutting in which Ca(v)3.2 was dramatically upregulated in DRG.",
+                    "qas": [
+                        {
+                            "question": "Which calcium channels does ethosuximide target?",
+                            "id": "56cf236f3975bb303a000002",
+                            "answers": [
+                                {
+                                    "text": "T-type calcium channels",
+                                    "answer_start": 14
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "AMPK Dilates Resistance Arteries via Activation of SERCA and BKCa Channels in Smooth Muscle. The protective effects of 5'-AMP-activated protein kinase (AMPK) on the metabolic syndrome may include direct effects on resistance artery vasomotor function. However, the precise actions of AMPK on microvessels and their potential interaction are largely unknown. Thus, we set to determine the effects of AMPK activation on vascular smooth muscle tone and the underlying mechanisms. Resistance arteries isolated from hamster and mouse exhibited a pronounced endothelium-independent dilation on direct pharmacological AMPK activation by 2 structurally unrelated compounds (PT1 and A769662). The dilation was associated with a decrease of intracellular-free calcium [Ca(2+)]i in vascular smooth muscle cell. AMPK stimulation induced activation of BKCa channels as assessed by patch clamp studies in freshly isolated hamster vascular smooth muscle cell and confirmed by direct proof of membrane hyperpolarization in intact arteries. The BKCa channel blocker iberiotoxin abolished the hyperpolarization but only partially reduced the dilation and did not affect the decrease of [Ca(2+)]i. By contrast, the sarcoplasmic/endoplasmic Ca(2+)-ATPase (SERCA) inhibitor thapsigargin largely reduced these effects, whereas combined inhibition of SERCA and BKCa channels virtually abolished them. AMPK stimulation significantly increased the phosphorylation of the SERCA modulator phospholamban at the regulatory T17 site. Stimulation of smooth muscle AMPK represents a new, potent vasodilator mechanism in resistance vessels. AMPK directly relaxes vascular smooth muscle cell by a decrease of [Ca(2+)]i. This is achieved by calcium sequestration via SERCA activation, as well as activation of BKCa channels. There is in part a mutual compensation of both calcium-lowering mechanisms. However, SERCA activation which involves an AMPK-dependent phosphorylation of phospholamban is the predominant mechanism in resistance vessels.",
+                    "qas": [
+                        {
+                            "question": "What is the effect of thapsigargin treatment?",
+                            "id": "56b7210b76d8bf8d13000004",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "NP-40 reduces contamination by endogenous biotinylated carboxylases during purification of biotin tagged nuclear proteins. We describe here a simple procedure for greatly reducing contamination of nuclear extracts by naturally biotinylated cytoplasmic carboxylases, which represent a major source of non-specific background when employing BirA-mediated biotinylation tagging for the purification and characterization of nuclear protein complexes by mass spectrometry. We show that the use of 0.5% of the non-ionic detergent Nonidet-40 (NP-40) during cell lysis and nuclei isolation is sufficient to practically eliminate contamination of nuclear extracts by carboxylases and to greatly reduce background signals in downstream mass spectrometric analyses.",
+                    "qas": [
+                        {
+                            "question": "What is the link between Nonidet-40 (NP-40) and biotinylation?",
+                            "id": "56a8d660a17756b72f000006",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "An open label, multicenter, phase II study of dovitinib in advanced thyroid cancer. BACKGROUND: This phase 2 study investigated the efficacy and safety of dovitinib (TKI258), a receptor tyrosine kinase inhibitor with potent activity against fibroblast growth factor receptor (FGFR) and vascular endothelial growth factor receptor (VEGFR), in locally advanced or metastatic thyroid cancer patients. PATIENTS AND METHODS: Patients with advanced thyroid cancer that was refractory or not appropriate for (131)I received dovitinib orally, 500mg once daily for five consecutive days, followed by a 2-day rest every week. The primary end-point was objective response rate. Secondary end-points were progression-free survival (PFS), overall survival (OS), duration of response, changes in tumour markers and safety. RESULTS: Between January 2013 and October 2014, a total of 40 patients were enrolled. There were 23 (57.5%) papillary thyroid cancer, 12 (30%) medullary thyroid cancer and 5 (12.5%) follicular thyroid cancer patients. One patient had withdrawn consent before the administration of dovitinib. The overall response rate was 20.5% (8/39) and disease control rate was 69.1% (26/39). Median PFS was 5.4 months (95% confidence interval (CI), 2.0-8.8) and median OS was not reached with 8.4 months follow-up duration. Common treatment-related adverse events were diarrhoea (53.8%), anorexia (35.8%), vomiting (25.6%), fatigue (23%) and nausea (20.5%), most of which were grade 1 or 2. There were no grade 4 events or treatment-related deaths. Dose interruption occurred in 12 (30.7%) patients, and 19 (48.7%) patients experienced dose reduction due to adverse events. CONCLUSIONS: Dovitinib has a modest activity with manageable toxicity in locally advanced or metastatic thyroid cancer.",
+                    "qas": [
+                        {
+                            "question": "What is dovitinib?",
+                            "id": "56d04a533975bb303a000010",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "Orexin system is expressed in avian muscle cells and regulates mitochondrial dynamics. Orexin A and B, orexigenic peptides produced primarily by the lateral hypothalamus that signal through two G protein-coupled receptors, orexin receptors 1/2, have been implicated in the regulation of several physiological processes in mammals. In avian (nonmammalian vertebrates) species; however, the physiological roles of orexin are not well defined. Here, we provide novel evidence that not only is orexin and its related receptors 1/2 (ORXR1/2) expressed in chicken muscle tissue and quail muscle (QM7) cell line, orexin appears to be a secretory protein in QM7 cells. In vitro administration of recombinant orexin A and B (rORX-A and B) differentially regulated prepro-orexin expression in a dose-dependent manner with up-regulation for rORX-A (P < 0.05) and downregulation for rORX-B (P < 0.05) in QM7 cells. While both peptides upregulated ORXR1 expression, only a high dose of rORX-B decreased the expression of ORXR2 (P < 0.05). The presence of orexin and its related receptors and the regulation of its own system in avian muscle cells indicate that orexin may have autocrine, paracrine, and/or endocrine roles. rORXs differentially regulated mitochondrial dynamics network. While rORX-A significantly induced the expression of mitochondrial fission-related genes (DNM1, MTFP1, MTFR1), rORX-B increased the expression of mitofusin 2, OPA1, and OMA1 genes that are involved in mitochondrial fusion. Concomitant with these changes, rORXs differentially regulated the expression of several mitochondrial metabolic genes (av-UCP, av-ANT, Ski, and NRF-1) and their related transcriptional regulators (PPAR\u03b3, PPAR\u03b1, PGC-1\u03b1, PGC-1\u03b2, and FoxO-1) without affecting ATP synthesis. Taken together, our data represent the first evidence of the presence and secretion of orexin system in the muscle of nonmammalian species and its role in mitochondrial fusion and fission, probably through mitochondrial-related genes and their related transcription factors.",
+                    "qas": [
+                        {
+                            "question": "Where are the orexigenic peptides synthesized?",
+                            "id": "56e47e0051531f7e3300001c",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "context": "First-in-Class CDK4/6 Inhibitor Palbociclib Could Usher in a New Wave of Combination Therapies for HR+, HER2- Breast Cancer. Women with hormone receptor-positive, human epidermal growth factor receptor 2- negative breast cancer-the most common subtype-have new options as palbociclib and similar drugs debut. This article outlines the rationale and evidence for their use.",
+                    "qas": [
+                        {
+                            "question": "In which breast cancer patients can palbociclib be used?",
+                            "id": "56d06e043975bb303a000011",
+                            "answers": [
+                                {
+                                    "text": " ",
+                                    "answer_start": 14
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

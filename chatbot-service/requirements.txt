@@ -1,0 +1,11 @@
+
+fastapi 
+uvicorn 
+transformers
+accelerate>=0.26.0
+chromadb
+sentence_transformers
+python-multipart
+docling
+rapidocr-onnxruntime
+pypdfium2

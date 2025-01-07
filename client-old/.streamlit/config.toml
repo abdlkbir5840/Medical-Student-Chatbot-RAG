@@ -1,0 +1,9 @@
+[theme]
+base = "light"  # Light mode
+primaryColor = "#257735"  # Primary color (RGB(37, 119, 53))
+backgroundColor = "#ffffff"  # Background color
+secondaryBackgroundColor = "#f0f2f6"  # Secondary background color
+textColor = "#000000"  # Text color
+
+[server]
+maxUploadSize = 1000
