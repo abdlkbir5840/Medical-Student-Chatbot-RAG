@@ -1,0 +1,8 @@
+add parameters for keyswords 
+use can choices
+
+- give collecion of index  in search results
+- index books before meeting
+- dockrize application for deployment
+- add more service : {summary, translations, text to spech, QA,  ....}
+- yml file for models configuration (souvgrader dans la session user)

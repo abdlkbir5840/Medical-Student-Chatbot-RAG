@@ -1,28 +1,41 @@
-export const uploadPdf = async (file) => {
-  return { success: true, message: 'PDF uploaded successfully (static response)' }
-}
+import axios from "axios";
 
-export const sendQuery = async (query, index) => {
-  let response = `This is a static response to your query: "${query}". `
-  switch (index) {
-    case 'user':
-      response += "This response is based only on your uploaded PDF."
-      break
-    case 'user_and_add':
-      response += "This response is based on your uploaded PDF, and your data will be added to our general data."
-      break
-    case 'user_and_general':
-      response += "This response is based on both your uploaded PDF and general medical knowledge."
-      break
-    case 'user_and_general_and_add':
-      response += "This response is based on both your uploaded PDF and general medical knowledge, and your data will be added to our general data."
-      break
-    default:
-      response += "This response is based on general medical knowledge."
+const instance = axios.create({
+  baseURL: "http://localhost:8000/",
+})
+
+export const uploadPdf = async (file, storeType, indexName, processId) => {
+  const formData = new FormData();
+  formData.append('file', file);
+  formData.append('store_type', storeType);
+  formData.append('indexName', indexName);
+  formData.append('process_id', processId);
+
+  try {
+    const response = await axios.post('http://localhost:8000/upload-pdf/', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    });
+
+    console.log('File uploaded successfully:', response.data);
+    return response.data; 
+  } catch (error) {
+    console.error('Error uploading file:', error);
+    if (error.response) {
+      console.error('Error Response:', error.response.data);
+    } else {
+      console.error('Error Message:', error.message);
+    }
+    throw error; 
   }
-  return {
-    response,
-    sources: ['Static Source 1', 'Static Source 2']
-  }
-}
+};
+
+export const sendQuery = async (query, indexName, selectedModel, search_type) => {
+  console.log(query, indexName, selectedModel, search_type);
+  const res = await instance.post("query/", { query, index_name: indexName, model_name: selectedModel, search_type });
+
+  return res.data;
+};
+
 

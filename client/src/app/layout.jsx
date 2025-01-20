@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import theme from '@/lib/theme'
+import Navbar from '@/components/navbar/Navbar';
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 

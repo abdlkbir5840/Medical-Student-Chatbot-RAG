@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // scrollbar: {
+      //   transparent: 'rgba(0, 0, 0, 0.2)', // Adjust as needed
+      // },
     },
   },
   plugins: [],

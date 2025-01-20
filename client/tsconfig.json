@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/layout.jsx", "src/app/page.jsx", "src/components/ChatInput.jsx", "src/components/ChatMessages.jsx", "src/components/SettingsPanel.jsx", "src/lib/api.js", "src/lib/theme.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/layout.jsx", "src/app/page.jsx", "src/components/qa/ChatInput.jsx", "src/components/qa/ChatMessages.jsx", "src/components/SettingsPanel.jsx", "src/lib/api.js", "src/lib/theme.js", "./components/**/*.{js,ts,jsx,tsx}"],
   "exclude": ["node_modules"]
 }
