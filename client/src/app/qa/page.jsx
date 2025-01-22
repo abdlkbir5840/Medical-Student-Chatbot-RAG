@@ -19,7 +19,7 @@ import {
 import ChatMessages from "@/components/qa/ChatMessages";
 import ChatInput from "@/components/qa/ChatInput";
 import SettingsPanel from "@/components/setting/SettingsPanel";
-import { uploadPdf, sendQuery } from "@/lib/api";
+import { uploadPdf, sendQuery, translateQuery } from "@/lib/api";
 import { publicAxios } from "../api/config";
 import { GTE_PDF, UPLOAD_PDF, GET_LLMS, EDIT_LLM_STATS, GTE_PDFS } from "../api/routes";
 
@@ -164,7 +164,48 @@ export default function QA() {
       alert("Error: " + error.message);
     }
   };
-
+  const processText = (text) => {
+    const languageKeywords = [
+      "French", "English", "Spanish", 
+      "Français", "Anglais", "Espagnol", 
+      "Francés", "Inglés", "Español"
+    ]; 
+    const firstWords = text.split(' ').slice(0, 10).join(' ').toLowerCase();
+  
+    const shouldRemoveIntro = languageKeywords.some(keyword => firstWords.includes(keyword));
+  
+    if (shouldRemoveIntro) {
+      return text.split(": ").slice(1).join(": ").trim();
+    }
+      return text;
+  }
+  const handleTranslate = async(language, messageIndex, currentMessage) => {
+    try{
+    SetIsThinking(true)
+    const textProcessed = processText(currentMessage);
+    const query = `Translate to ${language} this message: ${textProcessed}`
+    console.log(query);
+    const data = await translateQuery(query);
+    console.log(data);
+    console.log(data.translateQuery);
+    const conversation = JSON.parse(localStorage.getItem('chatMessages')) || [];
+    const translatedMessage = data.translatedQuery
+    console.log(translateQuery);
+    if (conversation[messageIndex] && translatedMessage) {
+      conversation[messageIndex].content = translatedMessage;
+      localStorage.setItem('chatMessages', JSON.stringify(conversation))
+    }
+    const savedMessages = localStorage.getItem("chatMessages");
+      if (savedMessages) {
+        setMessages(JSON.parse(savedMessages));
+      }
+    SetIsThinking(false)
+    } catch (error) {
+      console.error("Error translating message:", error);
+      alert("Error translating message: " + error.message);
+      SetIsThinking(false)
+    }
+  } 
   const fetchLLMs = async () => {
     try {
       const response = await publicAxios.get(GET_LLMS);
@@ -341,7 +382,7 @@ export default function QA() {
                     },
                   }}
                 >
-                  <ChatMessages messages={messages} isThinking={isThinking} />
+                  <ChatMessages messages={messages} isThinking={isThinking} onTranslate={handleTranslate} />
                 </Box>
                 <ChatInput onSendPrompt={handleSendPrompt} />
               </Paper>

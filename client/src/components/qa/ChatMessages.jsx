@@ -1,14 +1,61 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
-import { Box, Typography, Chip, Avatar, Button } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Chip,
+  Avatar,
+  Button,
+  IconButton,
+  Menu,
+  MenuItem,
+  Tooltip,
+  FormControl,
+  Select,
+} from "@mui/material";
 import StackTraceModal from "@/components/modal/StackTraceModal";
 import ThinkingComponent from "../loader/ThinkingComponent";
+import {
+  CopyAll,
+  ThumbUp,
+  ThumbDown,
+  Translate,
+  SwapHoriz,
+  InfoOutlined,
+  Autorenew,
+} from "@mui/icons-material";
+import ReactMarkdown from 'react-markdown';
 
-const ChatMessages = ({ messages, isThinking }) => {
+const ChatMessages = ({ messages, isThinking, onTranslate }) => {
   const messagesEndRef = useRef(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedStackTrace, setSelectedStackTrace] = useState(null);
+  const [messageIndex, setMessageIndex] = useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [currentMessage, setCurrentMessage] = useState(null);
+  const languages = ["English", "Spanish", "French", "German", "Chinese"];
+
+  const handleTranslateClick = (event, message, index) => {
+    setMessageIndex(index);
+    setAnchorEl(event.currentTarget);
+    setCurrentMessage(message);
+  };
+  
+  const handleTranslateClose = () => {
+    setAnchorEl(null);
+    setCurrentMessage(null);
+  };
+
+  const handleCopy = (message) => {
+    navigator.clipboard.writeText(message.content);
+    alert("Message copied to clipboard!");
+  };
+
+  const handleAction = (action, message) => {
+    console.log(`Action: ${action}, Message: ${message.content}`);
+    // Implement like/dislike functionality here
+  };
 
   const handleOpenModal = (stackTrace) => {
     setSelectedStackTrace(stackTrace);
@@ -33,6 +80,9 @@ const ChatMessages = ({ messages, isThinking }) => {
         overflowY: "auto",
         mb: 2,
         height: "calc(100% - 10px)",
+        "&::-webkit-scrollbar": {
+          display: "none",
+        },
       }}
     >
       {messages.map((message, index) => (
@@ -68,7 +118,11 @@ const ChatMessages = ({ messages, isThinking }) => {
               p: 1,
             }}
           >
-            <Typography variant="body1">{message.content}</Typography>
+            <Typography variant="body1">
+              <ReactMarkdown>
+                {message.content}
+              </ReactMarkdown>
+              </Typography>
             {/* {message.sources && message.sources.length > 0 && (
               <Box sx={{ mt: 1 }}>
                 {message.sources.map((source, i) => (
@@ -86,7 +140,7 @@ const ChatMessages = ({ messages, isThinking }) => {
               index != 0 &&
               message.stackTrace && (
                 <Box sx={{ mt: 1 }}>
-                  <Chip
+                  {/* <Chip
                     label="View Stack Trace"
                     size="small"
                     onClick={() => handleOpenModal(message.stackTrace)}
@@ -95,7 +149,64 @@ const ChatMessages = ({ messages, isThinking }) => {
                       mb: 0.5,
                       backgroundColor: "rgba(255, 255, 255, 1)",
                     }}
-                  />
+                  /> */}
+                  <Tooltip title="View Stack Trace" arrow>
+                    <InfoOutlined
+                      fontSize="small"
+                      onClick={() => handleOpenModal(message.stackTrace)}
+                      titleAccess="View Stack Trace"
+                    />
+                  </Tooltip>
+                  <Tooltip title="Regenerate response" arrow>
+                    <IconButton
+                      onClick={() =>
+                        handleAction("regenerate_response", message)
+                      }
+                      size="small"
+                      sx={{ color: "white" }}
+                    >
+                      <Autorenew fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+                  <Tooltip title="Copy Message" arrow>
+                    <IconButton
+                      onClick={() => handleCopy(message)}
+                      size="small"
+                      sx={{ color: "white" }}
+                    >
+                      <CopyAll fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
+
+                  {/* <Tooltip title="Like Message" arrow>
+                    <IconButton
+                      onClick={() => handleAction("like", message)}
+                      size="small"
+                      sx={{ color: "white" }}
+                    >
+                      <ThumbUp fontSize="small" />
+                    </IconButton>
+                  </Tooltip> */}
+
+                  {/* <Tooltip title="Dislike Message" arrow>
+                    <IconButton
+                      onClick={() => handleAction("dislike", message)}
+                      size="small"
+                      sx={{ color: "white" }}
+                    >
+                      <ThumbDown fontSize="small" />
+                    </IconButton>
+                  </Tooltip> */}
+
+                  <Tooltip title="Translate Message" arrow>
+                    <IconButton
+                      onClick={(e) => handleTranslateClick(e, message.content, index)}
+                      size="small"
+                      sx={{ color: "white" }}
+                    >
+                      <Translate fontSize="small" />
+                    </IconButton>
+                  </Tooltip>
                 </Box>
               )}
           </Box>
@@ -128,6 +239,23 @@ const ChatMessages = ({ messages, isThinking }) => {
       )}
 
       <div ref={messagesEndRef} />
+      <Menu
+        anchorEl={anchorEl}
+        open={Boolean(anchorEl)}
+        onClose={handleTranslateClose}
+      >
+        {languages.map((language, index) => (
+          <MenuItem
+            key={index}
+            onClick={() => {
+              onTranslate(language, messageIndex, currentMessage)
+              handleTranslateClose();
+            }}
+          >
+            {language}
+          </MenuItem>
+        ))}
+      </Menu>
       {selectedStackTrace && (
         <StackTraceModal
           open={modalOpen}

@@ -12,7 +12,7 @@ export const uploadPdf = async (file, storeType, indexName, processId) => {
   formData.append('process_id', processId);
 
   try {
-    const response = await axios.post('http://localhost:8000/upload-pdf/', formData, {
+    const response = await axios.post('http://localhost:8000/files/upload-pdf/', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
@@ -33,9 +33,16 @@ export const uploadPdf = async (file, storeType, indexName, processId) => {
 
 export const sendQuery = async (query, indexName, selectedModel, search_type) => {
   console.log(query, indexName, selectedModel, search_type);
-  const res = await instance.post("query/", { query, index_name: indexName, model_name: selectedModel, search_type });
+  const res = await instance.post("/llm/query/", { query, index_name: indexName, model_name: selectedModel, search_type });
 
   return res.data;
 };
+
+export const translateQuery = async (query) => {
+  console.log(query);
+  const res = await instance.post("/llm/translate/", { query });
+  return res.data;
+};
+
 
 

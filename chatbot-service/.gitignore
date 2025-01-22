@@ -1,3 +1,18 @@
-.chroma_db
-.venv
-data-pdf/*
+# Ignore virtual environment
+.venv/
+
+# Ignore chatbot service environment
+.chatbot-service/
+
+# Ignore Chroma DB
+.chroma_db/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other common files or directories
+.DS_Store
+*.log
+*.sqlite3
