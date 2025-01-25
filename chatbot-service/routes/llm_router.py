@@ -12,6 +12,7 @@ class QueryInput(BaseModel):
 
 @router.post("/query/")
 async def query_index(input: QueryInput):
+    print("From Query Endpoint")
     query = input.query
     collection_name = input.index_name
     model_name = input.model_name

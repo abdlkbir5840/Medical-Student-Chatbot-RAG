@@ -2,8 +2,8 @@ const prisma = require("../models/prismaClient");
 
 const models = [
   "Qwen/Qwen2.5-0.5B-Instruct",
-  "Qwen/Qwen2.5-1B-Instruct",
-  "Qwen/Qwen2.5-2B-Instruct",
+  "Qwen/Qwen2.5-1.5B-Instruct",
+  "Qwen/Qwen2.5-3B-Instruct",
 ];
 
 const initLLMModel = async (req, res, next) => {

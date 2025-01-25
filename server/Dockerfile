@@ -1,27 +1,26 @@
 FROM node:18
 
-# Install necessary system dependencies for sharp
 RUN apt-get update && apt-get install -y \
-  bash \
-  build-essential \
-  libvips-dev \
+  sox \
+  libsox-fmt-all \
+  ffmpeg \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Remove node_modules and cache if they exist
 RUN rm -rf node_modules && npm cache clean --force
 
-# Copy package.json and install dependencies
 COPY package*.json ./
 
-# Install dependencies with platform-specific flags
-RUN npm install --platform=linux --arch=arm64
+RUN npm install
 
-# Copy the rest of the application
+RUN mkdir -p /app/data/audios && chown -R node:node /app/data/audios
+RUN chmod -R 755 /app/data/audios
+
+
 COPY . .
 
-# Expose port
+# Expose application port
 EXPOSE 8080
 
 # Start the application

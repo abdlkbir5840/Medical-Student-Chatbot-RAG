@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse
+from pathlib import Path
 
 from routes.init_general_collection_router import router as init_general_collection_router
 from routes.websocket_router import router as websocket_router
@@ -22,9 +24,12 @@ app.include_router(websocket_router, prefix="/ws", tags=["WS"])
 app.include_router(llm_router, prefix="/llm", tags=["LLM"])
 app.include_router(file_upload_router, prefix="/files", tags=["File Upload"])
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 def read_root():
-    return {"message": "Welcome to the AI Assistant API!"}
+    file_path = Path("static/welcome.html")
+    html_content = file_path.read_text(encoding="utf-8")
+    return HTMLResponse(content=html_content)
+    # return {"message": "Welcome to the AI Assistant API!"}
 
 
 if __name__ == "__main__":

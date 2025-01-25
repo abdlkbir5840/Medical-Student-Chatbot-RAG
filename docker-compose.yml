@@ -1,0 +1,83 @@
+version: '3'
+
+services:
+  chatbot-service:
+    build:
+      context: ./chatbot-service   
+      dockerfile: Dockerfile       
+    container_name: chatbot-service
+    ports:
+      - "8000:8000"                
+    volumes:
+      - ./chatbot-service:/app     
+    environment:
+      - ENVIRONMENT=production     
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    networks:
+      - app-network
+  
+  express-server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: express-server
+    env_file:
+      - ./server/.env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./server:/app
+    depends_on:
+      - db
+    networks:
+      - app-network
+ 
+  db:
+      image: postgres:latest
+      container_name: postgres-db
+      environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=admin
+        - POSTGRES_DB=app_db
+      ports:
+        - "5432:5432"
+      volumes:
+        - postgres-data:/var/lib/postgresql/data
+      networks:
+      - app-network
+  
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile         
+    container_name: client
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./client:/app
+      - /app/node_modules
+    command: npm start
+    networks:
+      - app-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@example.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+volumes:
+  postgres-data:
+
+networks:
+  app-network:
+    driver: bridge

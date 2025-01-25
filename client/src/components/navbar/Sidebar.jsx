@@ -28,7 +28,7 @@ const Sidebar = ({ open, onClose }) => {
         "& .MuiDrawer-paper": { boxSizing: "border-box", width: 300 },
       }}
     >
-      <Toolbar />
+      {/* <Toolbar /> */}
       <Box sx={{ overflow: "auto" }}>
         <ConversationHistory conversations={conversations} onSelectConversation={handleSelectConversation} />
       </Box>

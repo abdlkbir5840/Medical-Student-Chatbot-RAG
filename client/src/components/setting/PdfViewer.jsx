@@ -1,15 +1,15 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.mjs';
+// import { Document, Page, pdfjs } from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.mjs';
 
 const PdfViewer = ({ file }) => {
-  const [numPages, setNumPages] = useState(null);
-  const [error, setError] = useState(null);
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
-  };
+  // const [numPages, setNumPages] = useState(null);
+  // const [error, setError] = useState(null);
+  // const onDocumentLoadSuccess = ({ numPages }) => {
+  //   setNumPages(numPages);
+  // };
 
   return (
     <div className='w-full' style={{ padding: '0px', fontFamily: 'Arial, sans-serif' }}>

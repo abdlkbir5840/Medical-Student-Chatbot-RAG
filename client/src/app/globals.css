@@ -28,3 +28,11 @@ body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
+
+.markdown-content p {
+  margin-bottom: 0;
+}
+
+.markdown-content br {
+  line-height: 1.5;
+}

@@ -3,3 +3,12 @@ chatbot-service/data-pdf.zip
 chatbot-service/.chroma_db/chroma.sqlite3
 vector-db/.chroma_db/chroma.sqlite3
 chatbot-service/.venv/lib/python3.9/site-packages/torch/lib/libtorch_cpu.dylib
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other common files or directories
+.DS_Store
+*.log
+*.sqlite3

@@ -9,7 +9,7 @@ import {
   Button,
   CircularProgress,
 } from "@mui/material";
-import { Person, SmartToy, PlayArrow, Pause } from "@mui/icons-material";
+import { Person, SmartToy, PlayArrow, Pause, Download } from "@mui/icons-material";
 import StackTraceModal from "@/components/modal/StackTraceModal";
 import ThinkingComponent from "../loader/ThinkingComponent";
 const messages = [
@@ -101,6 +101,11 @@ const AudioMessage = ({ duration, audioData, isUser }) => {
       <Typography variant="caption" className="text-white min-w-[40px]">
         {duration}
       </Typography>
+      <a href={audioData} download className="text-white">
+        <IconButton size="small" className="text-white">
+          <Download fontSize="small" />
+        </IconButton>
+      </a>
       <audio
         ref={audioRef}
         src={audioData}
