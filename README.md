@@ -66,10 +66,18 @@ Once the services are running and the database is set up, you can check if every
 - **RAG Backend**: Go to [localhost:8000](http://localhost:8000). The RAG backend should return a welcome page.
 - **Client Application**: Go to [localhost:3000](http://localhost:3000). The client should display the login page.
 
+
 ## Technologies Used:
 
-- Docker for containerization.
-- Prisma for database management.
-- Node.js for backend services.
-- React for the frontend application.
-- Speech-to-speech interaction for chatbot.
+- **RAG (Retrieval-Augmented Generation)** for the core chatbot functionality.
+- **Scraping**: Document scraping is done using the Docling IBM library.
+- **Express.js & Node.js**: Backend service built with Express.js and Node.js.
+- **Prisma**: Database ORM for PostgreSQL.
+- **PostgreSQL**: Database used to store data.
+- **Next.js**: Frontend framework.
+- **LLM Models**:
+  - **Qwen Models** for general interaction:
+    - Qwen/Qwen2.5-0.5B-Instruct
+    - Qwen/Qwen2.5-1.5B-Instruct
+    - Qwen/Qwen2.5-3B-Instruct
+  - **Speech Model**: onnx-community/Kokoro-82M-ONNX for speech-to-speech interaction.
